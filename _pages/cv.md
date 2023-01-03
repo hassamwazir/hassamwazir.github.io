@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Eng. in Electrical and Commnication Engineering, Universiti Teknologi Brunei (Formerly Institut Teknologi Brunei), 2014
+* M.S. in Mechatronics and Robotics, New York University, 2018
+* Ph.D in Mechanical Engineering, New York University, 2023 (expected)
 
 Work experience
 ======
