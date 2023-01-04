@@ -1,13 +1,13 @@
 ---
-title: "Range of Motion Assessment using a Digital Voice Assistant"
+title: 'Range of Motion Assessment using a Digital Voice Assistant'
 collection: publications
-authors: 'H. K. Wazir, K. Gaikwad and V. Kapila'
+authors: 'Hassam Khan Wazir, Kshitij Gaikwad, and Vikram Kapila'
 permalink: /publication/2022-07-14-ROMA-DVA-PAPER
 excerpt: 'This work focuses on the use of Digital Voice Assisstants such as the Google Nest Hub Max for assessing Range of Motion in the upper extremity.'
 date: 2022-07-14
 venue: '44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9870888'
-citation: 'H. K. Wazir, K. Gaikwad and V. Kapila, "Range of motion assessment using a digital voice assistant," in IEEE Engineering in Medicine & Biology Society (EMBC), 2022, pp. 2577-2580, doi: 10.1109/EMBC48229.2022.9870888.'
+citation: 'H. K. Wazir, K. Gaikwad, and V. Kapila, "Range of motion assessment using a digital voice assistant," in IEEE Engineering in Medicine & Biology Society (EMBC), 2022, pp. 2577-2580, doi: 10.1109/EMBC48229.2022.9870888.'
 ---
 <b> Abstract: </b>
 <div style="text-align: justify">
@@ -34,5 +34,5 @@ This is a placeholder for the results section.
 
 ---
 <div style="text-align: justify">
-<b>Recommended citation:</b> 'H. K. Wazir, K. Gaikwad and V. Kapila, "Range of motion assessment using a digital voice assistant," in IEEE Engineering in Medicine & Biology Society (EMBC), 2022, pp. 2577-2580, doi: 10.1109/EMBC48229.2022.9870888.'
+<b>Recommended citation:</b> H. K. Wazir, K. Gaikwad, and V. Kapila, "Range of motion assessment using a digital voice assistant," in IEEE Engineering in Medicine & Biology Society (EMBC), 2022, pp. 2577-2580, doi: 10.1109/EMBC48229.2022.9870888.
 </div>
