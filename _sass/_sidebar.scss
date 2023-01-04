@@ -117,7 +117,6 @@
   }
 }
 .sidebar .author__name {
-  text-align: center;
   font-family: $sans-serif;
   font-size: $type-size-5;
 }
@@ -129,11 +128,6 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
-}
-.sidebar .author__bio {
-  text-align: center;
-  font-family: $sans-serif;
-  font-size: $type-size-5;
 }
 
 .author__urls-wrapper {
