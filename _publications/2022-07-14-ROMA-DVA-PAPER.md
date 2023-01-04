@@ -19,17 +19,14 @@ Clinical relevance - This paper introduces the concept of ROM measurement using 
 <b>[Download paper here](https://ieeexplore.ieee.org/abstract/document/9870888)</b>
 
 ---
-
 <b> Experiment: </b>
 <div style="text-align: justify">
 This is a placeholder for the experiment section.
 
 ---
-
 <b> Results: </b>
 <div style="text-align: justify">
 This is a placeholder for the results section.
 
----
 
 <b>Recommended citation:</b> 'H. K. Wazir, K. Gaikwad and V. Kapila, "Range of motion assessment using a digital voice assistant," in IEEE Engineering in Medicine & Biology Society (EMBC), 2022, pp. 2577-2580, doi: 10.1109/EMBC48229.2022.9870888.'
