@@ -6,7 +6,9 @@ excerpt: 'This work focuses on the use of Digital Voice Assisstants such as the 
 date: 2022-07-14
 venue: '44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9870888'
-citation: '@INPROCEEDINGS{9870888,
+citation: '
+
+@INPROCEEDINGS{9870888,
 
   author={Wazir, Hassam Khan and Gaikwad, Kshitij and Kapila, Vikram},
 
@@ -27,7 +29,9 @@ Clinical relevance - This paper introduces the concept of ROM measurement using 
 
 [Download paper here](https://ieeexplore.ieee.org/abstract/document/9870888)
 
-Recommended citation: '@INPROCEEDINGS{9870888,
+Recommended citation: '
+
+@INPROCEEDINGS{9870888,
 
   author={Wazir, Hassam Khan and Gaikwad, Kshitij and Kapila, Vikram},
 
