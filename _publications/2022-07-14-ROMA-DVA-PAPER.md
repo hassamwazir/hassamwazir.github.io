@@ -33,4 +33,6 @@ This is a placeholder for the results section.
 </div>
 
 ---
+<div style="text-align: justify">
 <b>Recommended citation:</b> 'H. K. Wazir, K. Gaikwad and V. Kapila, "Range of motion assessment using a digital voice assistant," in IEEE Engineering in Medicine & Biology Society (EMBC), 2022, pp. 2577-2580, doi: 10.1109/EMBC48229.2022.9870888.'
+</div>
