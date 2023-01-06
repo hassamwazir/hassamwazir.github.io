@@ -1,20 +1,20 @@
 ---
-title: "Teaching experience 1"
+title: "ME-UY 3511: Measurement Systems Lab (Spring 2019)"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+permalink: /teaching/2018-Fall-Measurement-Systems-Lab
+venue: "NYU Tandon School of Engineering"
+date: 2018-07-01
+location: "New York, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+<b>Course summary:</b>The course covers electric measurements, data acquisition, passive and active filters for signal conditioning, temperature, position, velocity and acceleration measurements. | Co-requisite: ME-UY 3513.
 
-Heading 1
+<!-- Heading 1
 ======
 
 Heading 2
 ======
 
 Heading 3
-======
+====== -->

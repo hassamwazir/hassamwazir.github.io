@@ -1,10 +1,10 @@
 ---
-title: "ME-UY 3411: Automatic Controls Lab (Spring 2019)"
+title: "ME-UY 3411: Automatic Controls Lab (Fall 2021)"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2019-Spring-Automatic-Controls-Lab
+permalink: /teaching/2021-Fall-Automatic-Controls-Lab
 venue: "NYU Tandon School of Engineering"
-date: 2019-01-23
+date: 2021-01-23
 location: "New York, USA"
 ---
 
