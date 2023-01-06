@@ -78,6 +78,7 @@ analytics:
   google:
     tracking_id          :
 
+favicon: "500x300.png" # in images folder
 
 # Site Author
 author:
