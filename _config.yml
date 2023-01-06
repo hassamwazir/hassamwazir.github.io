@@ -22,7 +22,7 @@ read_more                : "enabled" # if enabled, adds "Read more" links to exc
 talkmap_link             : false #change to true to add link to talkmap on talks page
 colorscheme              : "dark"  # "light" (default), "dark"
 comments:
-  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
   discourse:
