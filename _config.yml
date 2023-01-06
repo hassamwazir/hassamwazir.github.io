@@ -9,12 +9,12 @@
 locale                   : "en-US"
 title                    : "Hassam Khan Wazir"
 title_separator          : "-"
-name                     : &name "Hassam Khan Wazir"
-description              : &description "Ph.D."
+name                     : &name #"Hassam Khan Wazir"
+description              : &description #"Ph.D."
 url                      : https://hassamwazir.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hassamwazir/hassamwazir.github.io"
-teaser                   : "bio-photo-2.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "500x300 - new.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
