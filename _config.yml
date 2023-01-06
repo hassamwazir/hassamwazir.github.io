@@ -78,14 +78,14 @@ analytics:
   google:
     tracking_id          :
 
-favicon: "/images/500x300.png" # in images folder
+favicon: "/assets/favicon/500x300.png" # in images folder
 
 # Site Author
 author:
   name             : "Hassam Khan Wazir"
   avatar           : "profile.png"
-  bio              : "Ph.D.<br>New York University"
-  location         : 
+  bio              : "Ph.D.<br/>New York University"
+  location         : "New York, NY"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en"
