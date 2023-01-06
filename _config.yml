@@ -78,8 +78,6 @@ analytics:
   google:
     tracking_id          :
 
-favicon: "/assets/favicon/500x300.png" # in images folder
-
 # Site Author
 author:
   name             : "Hassam Khan Wazir"
