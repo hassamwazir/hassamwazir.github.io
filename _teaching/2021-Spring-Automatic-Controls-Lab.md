@@ -1,5 +1,5 @@
 ---
-title: "ME-UY 3411: Automatic Controls Lab (Spring 2021)"
+title: "ME-UY 3411: Automatic Controls Laboratory (Spring 2021)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2021-Spring-Automatic-Controls-Lab

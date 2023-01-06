@@ -1,5 +1,5 @@
 ---
-title: "ME-UY 3511: Measurement Systems Lab (Fall 2018)"
+title: "ME-UY 3511: Measurement Systems Laboratory (Fall 2018)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2018-Fall-Measurement-Systems-Lab
