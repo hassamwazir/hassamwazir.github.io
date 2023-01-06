@@ -8,7 +8,7 @@ date: 2019-07-03
 location: "New York, USA"
 ---
 
-<b>Course summary:</b>The course covers system ID, modeling, identification and control of RC electrical network and a DCservo motor, modeling and control of a maglev system, rotary inverted pendulum and a coupled water tank system. | Prerequisite: ME-UY 3511. Co-requisite: ME-UY 3413.
+<b>Course summary: </b>The course covers system ID, modeling, identification and control of RC electrical network and a DCservo motor, modeling and control of a maglev system, rotary inverted pendulum and a coupled water tank system. | Prerequisite: ME-UY 3511. Co-requisite: ME-UY 3413.
 
 <!-- Heading 1
 ======
