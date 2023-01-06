@@ -1,7 +1,7 @@
 ---
 title: 'Range of Motion Assessment using a Digital Voice Assistant'
 collection: publications
-authors: 'Hassam Khan Wazir, Kshitij Gaikwad, and Vikram Kapila'
+authors: 'Hassam Khan Wazir, [Kshitij Gaikwad](https://www.linkedin.com/in/kshitij-gaikwad-90bb71216/), and Vikram Kapila'
 permalink: /publication/2022-07-14-ROMA-DVA-PAPER
 excerpt: 'This work focuses on the use of Digital Voice Assisstants such as the Google Nest Hub Max for assessing Range of Motion in the upper extremity.'
 date: 2022-07-14
