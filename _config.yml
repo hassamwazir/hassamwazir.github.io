@@ -83,9 +83,9 @@ analytics:
 author:
   name             : "Hassam Khan Wazir"
   avatar           : "profile.png"
-  bio              : "Ph.D."
+  bio              : "Ph.D.|\n"New York University""
   location         : 
-  employer         : "New York University"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en"
   email            :
