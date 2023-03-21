@@ -7,7 +7,7 @@ excerpt: 'This work focuses on the use of Digital Voice Assisstants such as the 
 date: 2022-07-14
 venue: '44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)'
 # paperurl: 'https://ieeexplore.ieee.org/abstract/document/9870888'
-citation: 'H. K. Wazir, K. Gaikwad, and V. Kapila, "Range of motion assessment using a digital voice assistant," in IEEE Engineering in Medicine & Biology Society (EMBC), 2022, pp. 2577-2580, doi: 10.1109/EMBC48229.2022.9870888.'
+# citation: 'H. K. Wazir, K. Gaikwad, and V. Kapila, "Range of motion assessment using a digital voice assistant," in IEEE Engineering in Medicine & Biology Society (EMBC), 2022, pp. 2577-2580, doi: 10.1109/EMBC48229.2022.9870888.'
 ---
 <b>Authors:  </b> 
 [Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), 
