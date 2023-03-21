@@ -10,9 +10,10 @@ paperurl: 'https://ieeexplore.ieee.org/abstract/document/9870888'
 citation: 'H. K. Wazir, K. Gaikwad, and V. Kapila, "Range of motion assessment using a digital voice assistant," in IEEE Engineering in Medicine & Biology Society (EMBC), 2022, pp. 2577-2580, doi: 10.1109/EMBC48229.2022.9870888.'
 ---
 <b>Authors:  </b> 
-Hassam Khan Wazir, 
+[Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), 
 [Kshitij Gaikwad](https://www.linkedin.com/in/kshitij-gaikwad-90bb71216/), and 
 [Vikram Kapila](https://scholar.google.com/citations?user=6PTJF28AAAAJ&hl=en)
+
 ---
 <b> Abstract: </b>
 <div style="text-align: justify">
