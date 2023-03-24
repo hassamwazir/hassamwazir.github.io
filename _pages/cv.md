@@ -17,10 +17,15 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* January 2019 - Present: Graduate Assistant
+  * New York University
+  * Course: Automatic Control Systems Laboratory
+    * Teaching: Teach a laboratory course that introduces students to data acquisition and control boards, system modeling, identification, and control, and methods such as PID control and LQR control
+
+* September 2018 - December 2018: Graduate Assistant
+  * New York University
+  * Course: Measurement Systems Laboratory
+    * Teaching: Taught a laboratory course that introduced students to standard laboratory equipment, data acquisition and control boards, measurement techniques related to temperature, frequency, electricity, rotation, and harmonics
 
 * Fall 2015: Research Assistant
   * Github University
