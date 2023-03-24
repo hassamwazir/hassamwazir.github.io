@@ -17,17 +17,17 @@ Education
 
 Work experience
 ======
-* New York University       New York, USA  
+* **New York University**&emsp;&emsp;&emsp;New York, USA  
 **Graduate Assistant:** January 2019 - Present
   * **Course:** Automatic Control Systems Laboratory
     * **Teaching:** Teach a laboratory course that introduces students to data acquisition and control boards, system modeling, identification, and control, and methods such as PID control and LQR control
 
-* New York University       New York, USA  
+* **New York University**&emsp;&emsp;&emsp;New York, USA  
 **Graduate Assistant:** September 2018 - December 2018
   * **Course:** Measurement Systems Laboratory
     * **Teaching:** Taught a laboratory course that introduced students to standard laboratory equipment, data acquisition and control boards, measurement techniques related to temperature, frequency, electricity, rotation, and harmonics
 
-* LearnOBots                Islamabad, Pakistan  
+* **LearnOBots**&emsp;&emsp;&emsp;Islamabad, Pakistan  
 **Trainee Engineer:** June 2016 - August 2016
   * **Teaching:** Taught courses related to Science, Technology, Engineering, Arts, and Mathematics to highshool students
   * **Hands-on Experience:** Designed, developed, and maintained modules and kits used to teach concepts related to Science, Technology, Engineering, Arts, and Mathematics
