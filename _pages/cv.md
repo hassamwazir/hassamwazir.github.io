@@ -34,10 +34,10 @@ Work experience
   
 Skills
 ======
-* **Languages:** &emsp; Python, C, C#, C++, JavaScript
+* **Languages:** &emsp;&emsp; Python, C, C#, C++, JavaScript
 * **Frameworks:** &emsp; Scikit, TensorFlow, Keras, PyTorch, ROS, Flask
-* **Tools:** &emsp; Docker, GIT, Unity, MATLAB, SolidWorks
-* **Platforms:** &emsp; Linux, Web, Windows, Arduino, Raspberry, GCP
+* **Tools:** &emsp;&emsp;&emsp; Docker, GIT, Unity, MATLAB, SolidWorks
+* **Platforms:** &emsp;&emsp; Linux, Web, Windows, Arduino, Raspberry, GCP
 
 Publications
 ======
