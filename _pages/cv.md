@@ -34,12 +34,10 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Languages:** Python, C, C#, C++, JavaScript
+* **Frameworks:** Scikit, TensorFlow, Keras, PyTorch, ROS, Flask
+* **Tools:** Docker, GIT, Unity, MATLAB, SolidWorks
+* **Platforms:** Linux, Web, Windows, Arduino, Raspberry, GCP
 
 Publications
 ======
