@@ -35,7 +35,7 @@ Work experience
 Skills
 ======
 * **Languages:**&emsp;&emsp;Python, C, C#, C++, JavaScript
-* **Frameworks:**&emsp;&emsp;Scikit, TensorFlow, Keras, PyTorch, ROS, Flask
+* **Frameworks:**&emsp;Scikit, TensorFlow, Keras, PyTorch, ROS, Flask
 * **Tools:**&emsp;&emsp;&emsp;&emsp;Docker, GIT, Unity, MATLAB, SolidWorks
 * **Platforms:**&emsp;&emsp;Linux, Web, Windows, Arduino, Raspberry, GCP
 
