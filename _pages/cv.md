@@ -18,7 +18,7 @@ Education
 Work experience
 ======
 <!-- * **New York University** | New York, USA   -->
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>
+* <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
 <div style="display: inline-block; text-align: left; width: 50%;">Graduate Assistant:</div> <div style="display: inline-block; text-align: right; width: 50%;">January 2019 - Present</div>
 
   * **Course:** Automatic Control Systems Laboratory
