@@ -21,7 +21,7 @@ Range of motion (ROM) is an important indicator of an individual's physical heal
 </div>
 
 <div style="text-align: justify">
-Clinical relevance — This paper introduces the concept of ROM measurement using digital voice assistants embedded with a monocular camera.
+<b>Clinical relevance</b> — This paper introduces the concept of ROM measurement using digital voice assistants embedded with a monocular camera.
 </div>
 
 <b>[Download paper here](https://ieeexplore.ieee.org/abstract/document/9870888)</b>
