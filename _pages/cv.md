@@ -24,11 +24,13 @@ Work experience
   * **Course:** Automatic Control Systems Laboratory
     * **Teaching:** Teach a laboratory course that introduces students to data acquisition and control boards, system modeling, identification, and control, and methods such as PID control and LQR control
 
+
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
   <div style="display: inline-block; text-align: left; width: 50%;">Graduate Assistant</div> <div style="display: inline-block; text-align: right; width: 50%;">September 2018 - December 2018</div>  
 
   * **Course:** Measurement Systems Laboratory
     * **Teaching:** Taught a laboratory course that introduced students to standard laboratory equipment, data acquisition and control boards, measurement techniques related to temperature, frequency, electricity, rotation, and harmonics
+
 
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">LearnOBots</div> <div style="display: inline-block; text-align: right; width: 50%;">Islamabad, Pakistan</div>  
   <div style="display: inline-block; text-align: left; width: 50%;">Trainee Engineer</div> <div style="display: inline-block; text-align: right; width: 50%;">June 2016 - August 2016</div>  
