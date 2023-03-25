@@ -30,7 +30,7 @@ redirect_from:
 <br>
 
 ---
-**Work experience**
+## Work experience
 
 <!-- * **New York University** | New York, USA   -->
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
@@ -56,7 +56,7 @@ redirect_from:
 <br>
 
 ---
-**Skills**
+## Skills
 
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Languages:</div> <div style="display: inline-block; text-align: left; width: 70%;">Python, C, C#, C++, JavaScript</div>
 
@@ -69,7 +69,7 @@ redirect_from:
 <br>
 
 ---
-**Publications**
+## Publications
 
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -84,7 +84,7 @@ redirect_from:
 <br>
 
 ---
-**Teaching**
+## Teaching
 
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
@@ -93,7 +93,7 @@ redirect_from:
 <br>
 
 ---
-**Honors and Awards**
+## Honors and Awards
 
 * Received the NYU Tandon School of Engineering Fellowship - September, 2018
 * Received the Fulbright Scholarship for Graduate Students - September 2016
