@@ -5,10 +5,14 @@ permalink: /projects/
 author_profile: true
 ---
 
+Here, I will talk about my research projects.
+
+<nbsp>
 {% include base_path %}
 
+{% assign ordered_pages = site.projects | sort:"order_number" %}
 
-{% for post in site.projects %}
-  {% include archive-single.html %}
+{% for post in ordered_pages %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}
 
