@@ -29,7 +29,15 @@ layout: compress
 
     {% include scripts.html %}
 
-    <script src="/assets/js/theme.js"></script>
+    <script>
+      function setTheme(theme) {
+        document.documentElement.className = theme;
+        localStorage.setItem('theme', theme);
+      }
+    
+      var savedTheme = localStorage.getItem('theme') || 'light';
+      setTheme(savedTheme);
+    </script>
 
   </body>
 </html>
