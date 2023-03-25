@@ -38,11 +38,14 @@ Work experience
   
 Skills
 ======
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">Languages</div> <div style="display: inline-block; text-align: left; width: 50%;">Python, C, C#, C++, JavaScript</div>
-* **Languages:**&emsp;&emsp;Python, C, C#, C++, JavaScript
+* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Languages:</div> <div style="display: inline-block; text-align: left; width: 70%;">Python, C, C#, C++, JavaScript</div>
+* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Frameworks:</div> <div style="display: inline-block; text-align: left; width: 70%;">Scikit, TensorFlow, Keras, PyTorch, ROS, Flask</div>
+* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Tools:</div> <div style="display: inline-block; text-align: left; width: 70%;">Docker, GIT, Unity, MATLAB, SolidWorks</div>
+* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Platforms:</div> <div style="display: inline-block; text-align: left; width: 70%;">Linux, Web, Windows, Arduino, Raspberry, GCP</div>
+<!-- * **Languages:**&emsp;&emsp;Python, C, C#, C++, JavaScript
 * **Frameworks:**&emsp;Scikit, TensorFlow, Keras, PyTorch, ROS, Flask
 * **Tools:**&emsp;&emsp;&emsp;&emsp;Docker, GIT, Unity, MATLAB, SolidWorks
-* **Platforms:**&emsp;&emsp;Linux, Web, Windows, Arduino, Raspberry, GCP
+* **Platforms:**&emsp;&emsp;Linux, Web, Windows, Arduino, Raspberry, GCP -->
 
 Publications
 ======
