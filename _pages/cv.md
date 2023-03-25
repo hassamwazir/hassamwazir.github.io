@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ---
-**Education**
+## Education
 
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
   <div style="display: inline-block; text-align: left; width: 50%;">Doctor of Philosophy - Mechanical Engineering</div> <div style="display: inline-block; text-align: right; width: 50%;">September 2018 - 2023 (expected)</div>
