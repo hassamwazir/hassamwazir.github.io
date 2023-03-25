@@ -17,13 +17,8 @@ Education
 
 Work experience
 ======
-* **New York University** | New York, USA  
-* <html>
-  <body>
-    <div style="display: inline-block; text-align: left; width: 50%;">This text is aligned to the left.</div> <div style="display: inline-block; text-align: right; width: 50%;">This text is aligned to the right.</div>
-
-  </body>
-</html>  
+<!-- * **New York University** | New York, USA   -->
+* <div style="display: inline-block; text-align: left; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>
 
 **Graduate Assistant:** January 2019 - Present
   * **Course:** Automatic Control Systems Laboratory
