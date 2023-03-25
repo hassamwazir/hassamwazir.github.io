@@ -11,6 +11,8 @@ redirect_from:
 
 Education
 ======
+* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Languages:</div> 
+* **B.Eng. (Hons)** in Electrical and Commnication Engineering, <div style="display: inline-block; text-align: left;">Universiti Teknologi Brunei, 2014</div>
 * **B.Eng. (Hons)** in Electrical and Commnication Engineering, Universiti Teknologi Brunei, 2014
 * **M.S.** in Mechatronics and Robotics, New York University, 2018
 * **Ph.D** in Mechanical Engineering, New York University, 2023 (expected)
