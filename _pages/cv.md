@@ -15,7 +15,7 @@ Education
 * **M.S.** in Mechatronics and Robotics, New York University, 2018
 * **Ph.D** in Mechanical Engineering, New York University, 2023 (expected)
 
-
+<br>
 
 Work experience
 ======
@@ -26,7 +26,7 @@ Work experience
   * **Course:** Automatic Control Systems Laboratory
     * **Teaching:** Teach a laboratory course that introduces students to data acquisition and control boards, system modeling, identification, and control, and methods such as PID control and LQR control
 
-
+<br>
 
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
   <div style="display: inline-block; text-align: left; width: 50%;">Graduate Assistant</div> <div style="display: inline-block; text-align: right; width: 50%;">September 2018 - December 2018</div>  
@@ -34,7 +34,7 @@ Work experience
   * **Course:** Measurement Systems Laboratory
     * **Teaching:** Taught a laboratory course that introduced students to standard laboratory equipment, data acquisition and control boards, measurement techniques related to temperature, frequency, electricity, rotation, and harmonics
 
-
+<br>
 
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">LearnOBots</div> <div style="display: inline-block; text-align: right; width: 50%;">Islamabad, Pakistan</div>  
   <div style="display: inline-block; text-align: left; width: 50%;">Trainee Engineer</div> <div style="display: inline-block; text-align: right; width: 50%;">June 2016 - August 2016</div>  
@@ -42,7 +42,7 @@ Work experience
   * **Teaching:** Taught courses related to Science, Technology, Engineering, Arts, and Mathematics to highshool students
   * **Hands-on Experience:** Designed, developed, and maintained modules and kits used to teach concepts related to Science, Technology, Engineering, Arts, and Mathematics
 
-
+<br>
 
 Skills
 ======
@@ -51,7 +51,7 @@ Skills
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Tools:</div> <div style="display: inline-block; text-align: left; width: 70%;">Docker, GIT, Unity, MATLAB, SolidWorks</div>
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Platforms:</div> <div style="display: inline-block; text-align: left; width: 70%;">Linux, Web, Windows, Arduino, Raspberry, GCP</div>
 
-
+<br>
 
 Publications
 ======
@@ -65,7 +65,7 @@ Publications
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul> -->
 
-<div><br> </br> </div>
+<br>
 
 Teaching
 ======
@@ -73,7 +73,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-
+<br>
 
 Honors and Awards
 ======
