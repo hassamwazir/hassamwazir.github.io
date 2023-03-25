@@ -19,23 +19,26 @@ Work experience
 ======
 <!-- * **New York University** | New York, USA   -->
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
-  <div style="display: inline-block; text-align: left; width: 50%;">Graduate Assistant:</div> <div style="display: inline-block; text-align: right; width: 50%;">January 2019 - Present</div>
+  <div style="display: inline-block; text-align: left; width: 50%;">Graduate Assistant</div> <div style="display: inline-block; text-align: right; width: 50%;">January 2019 - Present</div>
 
   * **Course:** Automatic Control Systems Laboratory
     * **Teaching:** Teach a laboratory course that introduces students to data acquisition and control boards, system modeling, identification, and control, and methods such as PID control and LQR control
 
-* **New York University**&emsp;&emsp;&emsp;New York, USA  
-**Graduate Assistant:** September 2018 - December 2018
+* <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
+  <div style="display: inline-block; text-align: left; width: 50%;">Graduate Assistant</div> <div style="display: inline-block; text-align: right; width: 50%;">September 2018 - December 2018</div>  
+
   * **Course:** Measurement Systems Laboratory
     * **Teaching:** Taught a laboratory course that introduced students to standard laboratory equipment, data acquisition and control boards, measurement techniques related to temperature, frequency, electricity, rotation, and harmonics
 
-* **LearnOBots**&emsp;&emsp;&emsp;&emsp;Islamabad, Pakistan  
-**Trainee Engineer:** June 2016 - August 2016
+* <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">LearnOBots</div> <div style="display: inline-block; text-align: right; width: 50%;">Islamabad, Pakistan</div>  
+  <div style="display: inline-block; text-align: left; width: 50%;">Trainee Engineer</div> <div style="display: inline-block; text-align: right; width: 50%;">June 2016 - August 2016</div>  
+
   * **Teaching:** Taught courses related to Science, Technology, Engineering, Arts, and Mathematics to highshool students
   * **Hands-on Experience:** Designed, developed, and maintained modules and kits used to teach concepts related to Science, Technology, Engineering, Arts, and Mathematics
   
 Skills
 ======
+* <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">Languages</div> <div style="display: inline-block; text-align: left; width: 50%;">Python, C, C#, C++, JavaScript</div>
 * **Languages:**&emsp;&emsp;Python, C, C#, C++, JavaScript
 * **Frameworks:**&emsp;Scikit, TensorFlow, Keras, PyTorch, ROS, Flask
 * **Tools:**&emsp;&emsp;&emsp;&emsp;Docker, GIT, Unity, MATLAB, SolidWorks
