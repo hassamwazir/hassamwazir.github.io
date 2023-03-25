@@ -18,7 +18,7 @@ teaser                   : "500x300.png" # filename of teaser fallback teaser im
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
+read_more                : "disable" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 colorscheme              : "dark"  # "light" (default), "dark"
 comments:
