@@ -17,7 +17,13 @@ Education
 
 Work experience
 ======
-* New York University | New York, USA  
+* **New York University** | New York, USA  
+* <html>
+  <body>
+    <div style="text-align: left;">This text is aligned to the left.</div>
+<div style="text-align: right;">This text is aligned to the right.</div>
+  </body>
+</html>
 **Graduate Assistant:** January 2019 - Present
   * **Course:** Automatic Control Systems Laboratory
     * **Teaching:** Teach a laboratory course that introduces students to data acquisition and control boards, system modeling, identification, and control, and methods such as PID control and LQR control
@@ -41,7 +47,7 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
@@ -53,7 +59,7 @@ Publications
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
