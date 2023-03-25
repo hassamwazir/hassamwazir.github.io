@@ -10,8 +10,8 @@ redirect_from:
 {% include base_path %}
 
 ---
-Education
-======
+**Education**
+
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
   <div style="display: inline-block; text-align: left; width: 50%;">Doctor of Philosophy - Mechanical Engineering</div> <div style="display: inline-block; text-align: right; width: 50%;">September 2018 - 2023 (expected)</div>
 
@@ -30,8 +30,8 @@ Education
 <br>
 
 ---
-Work experience
-======
+**Work experience**
+
 <!-- * **New York University** | New York, USA   -->
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
   <div style="display: inline-block; text-align: left; width: 50%;">Graduate Assistant</div> <div style="display: inline-block; text-align: right; width: 50%;">January 2019 - Present</div>
@@ -56,8 +56,8 @@ Work experience
 <br>
 
 ---
-Skills
-======
+**Skills**
+
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Languages:</div> <div style="display: inline-block; text-align: left; width: 70%;">Python, C, C#, C++, JavaScript</div>
 
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Frameworks:</div> <div style="display: inline-block; text-align: left; width: 70%;">Scikit, TensorFlow, Keras, PyTorch, ROS, Flask</div>
@@ -69,8 +69,8 @@ Skills
 <br>
 
 ---
-Publications
-======
+**Publications**
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
@@ -84,8 +84,8 @@ Publications
 <br>
 
 ---
-Teaching
-======
+**Teaching**
+
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
@@ -93,8 +93,8 @@ Teaching
 <br>
 
 ---
-Honors and Awards
-======
+**Honors and Awards**
+
 * Received the NYU Tandon School of Engineering Fellowship - September, 2018
 * Received the Fulbright Scholarship for Graduate Students - September 2016
 * Received the Government of Brunei Darussalam Scholarship - August, 2010
