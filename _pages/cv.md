@@ -11,14 +11,8 @@ redirect_from:
 
 Education
 ======
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Languages:</div> 
-* **B.Eng. (Hons)** in Electrical and Commnication Engineering, <div style="display: inline-block; text-align: left;">Universiti Teknologi Brunei, 2014</div>
-* **B.Eng. (Hons)** in Electrical and Commnication Engineering, Universiti Teknologi Brunei, 2014
-* **M.S.** in Mechatronics and Robotics, New York University, 2018
-* **Ph.D** in Mechanical Engineering, New York University, 2023 (expected)
-
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
-  <div style="display: inline-block; text-align: left; width: 50%;">Doctor of Philosophy - Mechanical Engineering</div> <div style="display: inline-block; text-align: right; width: 50%;">September 2018 - Present</div>
+  <div style="display: inline-block; text-align: left; width: 50%;">Doctor of Philosophy - Mechanical Engineering</div> <div style="display: inline-block; text-align: right; width: 50%;">September 2018 - 2023 (expected)</div>
 
   **Courses:** Robot perception, Robots for disability, Machine learning, Probability and stochastic processes, Optimal and learning control for robotics, Robotic gait and manipulation, Writing and communication for engineers, Interactive medical robotics
 
