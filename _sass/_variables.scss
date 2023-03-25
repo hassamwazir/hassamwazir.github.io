@@ -151,3 +151,24 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+
+// Color Variables
+$color-primary: #0071c5;
+$color-dark: #202020;
+$color-light: #f8f8f8;
+
+// Theme Variables
+$theme-light: (
+  'bg': $color-light,
+  'text': #333,
+  'link': $color-primary,
+  'link-hover': #005493,
+);
+
+$theme-dark: (
+  'bg': $color-dark,
+  'text': #eee,
+  'link': #4ec4d4,
+  'link-hover': #00a6b1,
+);

@@ -1,0 +1,43 @@
+/*
+   Toggle Button Styles
+   ========================================================================== */
+   .theme-toggle {
+    display: inline-block;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .theme-toggle:hover {
+    background-color: #f0f0f0;
+  }
+  
+  // Light Theme Styles
+  .light {
+    background-color: map-get($theme-light, 'bg');
+    color: map-get($theme-light, 'text');
+  
+    a {
+      color: map-get($theme-light, 'link');
+    }
+  
+    a:hover {
+      color: map-get($theme-light, 'link-hover');
+    }
+  }
+  
+  // Dark Theme Styles
+  .dark {
+    background-color: map-get($theme-dark, 'bg');
+    color: map-get($theme-dark, 'text');
+  
+    a {
+      color: map-get($theme-dark, 'link');
+    }
+  
+    a:hover {
+      color: map-get($theme-dark, 'link-hover');
+    }
+  }

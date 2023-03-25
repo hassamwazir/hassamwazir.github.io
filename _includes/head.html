@@ -5,7 +5,15 @@
 {% include seo.html %}
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
-<a href="#" class="theme-toggle">Toggle Theme</a>
+<script>
+  function setTheme(theme) {
+    document.documentElement.className = theme;
+    localStorage.setItem('theme', theme);
+  }
+
+  var savedTheme = localStorage.getItem('theme') || 'light';
+  setTheme(savedTheme);
+</script>
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
