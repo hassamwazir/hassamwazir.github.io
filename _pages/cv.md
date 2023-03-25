@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+---
 Education
 ======
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
@@ -28,6 +29,7 @@ Education
 
 <br>
 
+---
 Work experience
 ======
 <!-- * **New York University** | New York, USA   -->
@@ -53,6 +55,7 @@ Work experience
 
 <br>
 
+---
 Skills
 ======
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Languages:</div> <div style="display: inline-block; text-align: left; width: 70%;">Python, C, C#, C++, JavaScript</div>
@@ -65,6 +68,7 @@ Skills
 
 <br>
 
+---
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -79,6 +83,7 @@ Publications
 
 <br>
 
+---
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
@@ -87,6 +92,7 @@ Teaching
 
 <br>
 
+---
 Honors and Awards
 ======
 * Received the NYU Tandon School of Engineering Fellowship - September, 2018
