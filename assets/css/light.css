@@ -1,0 +1,15 @@
+/* Light Theme Styles */
+
+body {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  header, footer {
+    background-color: #eee;
+    color: #333;
+  }
+  
+  a {
+    color: #07c;
+  }
