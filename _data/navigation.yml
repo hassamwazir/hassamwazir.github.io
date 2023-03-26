@@ -2,21 +2,18 @@
 main:
   - title: "Publications"
     url: /publications/
-
-  # - title: "Talks"
-  #   url: /talks/    
+    
+  - title: "Research"
+    url: /research/
 
   - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Projects"
-    url: /projects/
-        
+    url: /teaching/
+
+  - title: "Software"
+    url: /software/
+
   - title: "Posts"
     url: /posts/
     
   - title: "CV"
     url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
