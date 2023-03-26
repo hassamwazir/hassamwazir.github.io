@@ -1,4 +1,4 @@
----
+<!-- ---
 permalink: /software/
 title: "Software"
 gallery:
@@ -87,4 +87,4 @@ I also have a number of other software resources focused on making computation a
     - Some tweaking likely required to use at another institution or in the future
 - [Scripts](https://github.com/jayrobwilliams/Teaching) that I use to save time on various teaching-related tasks like grading
 - [Functions](https://github.com/jayrobwilliams/ComputerVision) for extracting still frames from videos and information from images in Python using OpenCV
-- [Compiling OpenCV](/files/html/OpenCV_Install.html) from source for Anaconda virtual environments instead of Homebrew ones or system Python installations
+- [Compiling OpenCV](/files/html/OpenCV_Install.html) from source for Anaconda virtual environments instead of Homebrew ones or system Python installations -->
