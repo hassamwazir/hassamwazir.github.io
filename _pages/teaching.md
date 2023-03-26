@@ -16,6 +16,6 @@ author_profile: true
 - ME-UY 3411: Automatic Controls Laboratory (Spring 2020)
 - ME-UY 3411: Automatic Controls Laboratory (Fall 2019)
 - ME-UY 3411: Automatic Controls Laboratory (Spring 2019)
-    - [Syllabus](/files/pdf/teaching/automaticcontrol.pdf)
+    - [Syllabus](/files/pdf/teaching/automaticControlLab.pdf)
 - ME-UY 3511: Measurement Systems Laboratory (Fall 2018)
-    - [Syllabus](/files/pdf/teaching/measurementsystems.pdf)
+    - [Syllabus](/files/pdf/teaching/measurementSystemsLab.pdf)
