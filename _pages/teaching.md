@@ -1,9 +1,17 @@
 ---
+layout: archive
 permalink: /teaching/
 title: "Teaching"
+author_profile: true
 ---
 
-Research plays a central role in my teaching as students improve their
+{% include base_path %}
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<!-- Research plays a central role in my teaching as students improve their
 analytical skills and master the tools of data analysis through hands-on
 experience. I have taught undergraduate courses on political violence and
 statistical methodology. While at UNC, I taught the graduate statistics lab for
@@ -37,4 +45,4 @@ from Advanced Topics in Political Data Science, [here](/teaching-materials).
 
 ## ICPSR Summer Program
 - Introduction to Applied Bayesian Modeling (Summer 2017)
-    - [Syllabus](/files/pdf/teaching/bayes2017.pdf)
+    - [Syllabus](/files/pdf/teaching/bayes2017.pdf) -->
