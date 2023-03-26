@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "A Wearable Pendant Sensor to Monitor Compliance with Range of Motion Lymphatic Health Exercise"
 collection: publications
 authors: '[Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), [Satish Reddy Bethi](https://scholar.google.com/citations?user=QdEyUtEAAAAJ&hl=en),
@@ -45,4 +45,4 @@ This is a placeholder for the results section.
 ---
 <div style="text-align: justify">
 <b>Recommended citation:</b> H. K. Wazir, S. R. Bethi, A. R. Kumar, and V. Kapila, "A wearable pendant sensor to monitor compliance with range of motion lymphatic health exercise," in IEEE Engineering in Medicine & Biology Society (EMBC), 2020, pp. 4588-4591, doi: 10.1109/EMBC44109.2020.9175471.
-</div>
+</div> -->
