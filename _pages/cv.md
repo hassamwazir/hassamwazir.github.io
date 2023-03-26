@@ -79,12 +79,12 @@ redirect_from:
   {% endfor %}</ul> -->
 
 
----
+<!-- ---
 ## Teaching
 
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
 
 ---
