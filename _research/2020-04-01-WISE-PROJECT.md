@@ -7,7 +7,7 @@ collection: research
 order_number: 10
 header: 
 og_image: "research/wise_thumbnail.png"
-<!-- date: 2021-04-01 -->
+# date: 2021-04-01
 
 ---
 
