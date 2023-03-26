@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rob Williams"
+title                    : "Hassam Khan Wazir"
 title_separator          : "-"
-name                     : &name "Rob Williams"
-description              : &description "Postdoc in Political Science"
-url                      : https://jayrobwilliams.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Hassam Khan Wazir"
+description              : &description "Ph.D. in Mechanical Engineering"
+url                      : hassamwazir.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jayrobwilliams/jayrobwilliams.github.io"
+repository               : "hassamwazir/hassamwazir.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 mastodon:
-  username               : "fosstodon.org/@jayrobw"
+  username               :
 twitter:
   username               : 
 facebook:
@@ -79,21 +79,21 @@ analytics:
   google:
     tracking_id          : 
   goatcounter:
-    code		 : jayrobwilliams
+    code		 : hassamwazir
 
 
 # Site Author
 author:
-  name             : "Rob Williams"
+  name             : "Hassam Khan Wazir"
   avatar           : "profile.png"
-  bio              : "Data Scientist"
-  location         :
+  bio              : "Ph.D.<br/>New York University"
+  location         : "New York, NY"
   employer         :
   pubmed           :
-  orcid            : "http://orcid.org/0000-0001-9259-3883"
-  googlescholar    : "https://scholar.google.com/citations?user=fiaPSmgAAAAJ"
-  email            : "rob.williams@wustl.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  orcid            : "http://orcid.org/0000-0003-4930-3259"
+  googlescholar    : "https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en"
+  email            : "hassam.wazir@nyu.edu"
+  researchgate     : "https://www.researchgate.net/profile/Hassam-Wazir"
   uri              :
   bitbucket        :
   codepen          :
@@ -101,15 +101,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jayrobwilliams"
-  gitlab           : "jayrobwilliams"
+  github           : "hassamwazir"
+  gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "jayrobwilliams"
-  mastodon         : "fosstodon.org/@jayrobw"
+  linkedin         : "hassam-khan-wazir-17a732bb"
+  mastodon         :
   pinterest        :
   soundcloud       :
   stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
