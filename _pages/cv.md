@@ -27,7 +27,6 @@ redirect_from:
 
   ***Course:*** *Fiber optic communications, Microwave systems, Communication systems, Embedded systems, Control systems, Microcomputer engineering, Electromagnetic fields and waves, Electrical circuits, Digital electronics, Mathematics for engineers*
 
-<br>
 
 ---
 ## Work experience
@@ -53,7 +52,6 @@ redirect_from:
   * **Teaching:** Taught courses related to Science, Technology, Engineering, Arts, and Mathematics to highshool students
   * **Hands-on Experience:** Designed, developed, and maintained modules and kits used to teach concepts related to Science, Technology, Engineering, Arts, and Mathematics
 
-<br>
 
 ---
 ## Skills
@@ -66,7 +64,6 @@ redirect_from:
 
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Platforms:</div> <div style="display: inline-block; text-align: left; width: 70%;">Linux, Web, Windows, Arduino, Raspberry, GCP</div>
 
-<br>
 
 ---
 ## Publications
@@ -81,7 +78,6 @@ redirect_from:
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul> -->
 
-<br>
 
 ---
 ## Teaching
@@ -90,7 +86,6 @@ redirect_from:
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-<br>
 
 ---
 ## Honors and Awards
