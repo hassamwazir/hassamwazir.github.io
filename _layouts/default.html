@@ -9,8 +9,6 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-
-    <link rel="stylesheet" href="/assets/css/light.css" id="theme-style">
   </head>
 
   <body>
@@ -28,16 +26,6 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-
-    <script>
-      function setTheme(theme) {
-        document.documentElement.className = theme;
-        localStorage.setItem('theme', theme);
-      }
-    
-      var savedTheme = localStorage.getItem('theme') || 'light';
-      setTheme(savedTheme);
-    </script>
 
   </body>
 </html>
