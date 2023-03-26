@@ -22,5 +22,5 @@ A robotic manipulator was used to remotely interact with a dialysis machine inst
 **Tech:** Raspberry pi, Unity, ROS, Web sockets, C#, C++
 
 
-[Article](https://doi.org/10.3389/frobt.2021.612855){: .btn--research} [Preprint](/files/pdf/research/COVID-19_Emergency_Response.pdf){: .btn--research}
+[Article](https://doi.org/10.3389/frobt.2021.612855){: .btn--research} [Preprint](/files/pdf/research/covid-paper.pdf){: .btn--research}
 <!-- [Supplemental Information](/files/pdf/research/Turning the Lights on SI.pdf){: .btn--research} [Replication Archive](https://journals.sagepub.com/doi/suppl/10.1177/07388942211015242){: .btn--research} [GitHub Repo](https://github.com/jayrobwilliams/conflict-preemption){: .btn--research} [Poster](/files/pdf/research/PSS 2018 Poster.pdf){: .btn--research} -->
