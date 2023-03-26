@@ -1,5 +1,6 @@
 ---
 title: "Conflict event data"
+short_title: "Conflict event data"
 layout: single-portfolio
 excerpt: "<img src='/images/research/map.png' alt=''>"
 collection: research

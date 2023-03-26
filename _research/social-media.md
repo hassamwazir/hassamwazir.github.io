@@ -1,5 +1,6 @@
 ---
 title: "Social media data"
+short_title: "Social media data"
 layout: single-portfolio
 excerpt: "<img src='/images/research/ternary.png' alt=''>"
 collection: research

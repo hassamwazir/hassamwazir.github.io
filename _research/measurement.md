@@ -1,5 +1,6 @@
 ---
 title: "Measurement"
+short_title: "Measurement"
 layout: single-portfolio
 excerpt: "<img src='/images/research/Agreement-Strength.png' alt=''>"
 collection: research
