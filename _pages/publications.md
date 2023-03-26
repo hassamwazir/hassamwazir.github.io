@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: False
+author_profile: true
 ---
 
 {% if author.googlescholar %}
@@ -16,4 +16,3 @@ author_profile: False
 {% endfor %}
 
 <sup>*</sup> Equal authorship
-
