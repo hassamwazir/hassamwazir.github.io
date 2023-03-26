@@ -4,30 +4,26 @@ title: "Research"
 permalink: /research/
 author_profile: true
 header:
-  og_image: "images/research/ecdf.png"
+  og_image: "research/ecdf.png"
 ---
 
-My academic research falls into two main areas: understanding the influence of
-geography on actor behavior before, during, and after civil conflict, and
-developing new tools to improve the study of institutions (both formal and
-informal) in peace and conflict. One strand of research in this first area
-explores how the territories that ethnic groups inhabit shape rebel group
-formation and condition their relationship with the state. My interest in
-geography also informs projects on active conflicts including the targeting of
-UN peacekeepers by insurgent groups, civilian victimization after rebel
-territorial conquest, and communal violence in fragile settings.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt non mi in imperdiet. 
+Nunc rhoncus quam massa, id porta massa ultrices sit amet. Proin aliquet nunc urna, sed vestibulum ligula euismod sed. 
+Morbi porta dapibus sodales. Nunc turpis lectus, gravida a diam ut, lacinia bibendum ipsum. Sed in pulvinar mauris. 
+Praesent rutrum metus at velit posuere posuere. Sed ut lacus eget magna tristique venenatis in commodo nisi.
 
-My other main research agenda uses advanced methods to develop new measures of
-institutions. One project uses Bayesian item response theory to measure the
-strength of peace agreements as a latent variable and free researchers from
-post-treatment bias caused by using the duration of agreements as a proxy for
-their strength. In others, I apply unsupervised learning techniques to over a
-billion observations of product-level international trade data to measure
-economic interdependence and illicit economic exchange.
+Morbi ullamcorper ligula id lectus egestas, vitae viverra lectus efficitur. 
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+Donec vehicula commodo velit, sed pretium tellus. Nunc mollis a nulla a luctus. Cras laoreet eleifend magna sed venenatis. 
+Nam dictum, nisl et vestibulum facilisis, est nulla rhoncus tellus, in tincidunt dui nunc at arcu. 
+Duis at felis tempor est condimentum hendrerit et ullamcorper odio. Proin magna ante, varius ac tincidunt quis, dignissim in diam. 
+Proin magna enim, vestibulum et urna ut, lacinia tempor massa.
 
-In a new avenue of research, I leverage social media data to explore
-participation in extremist movements across multiple contexts, gaining insight
-into the early stages of radicalization.
+In venenatis dictum risus id pretium. Integer nisl tortor, finibus sed sodales at, vulputate eget nisl. 
+Sed maximus elit non egestas porta. Vestibulum aliquet lobortis dolor in pulvinar. Integer non leo sit amet dui porttitor scelerisque. 
+Nulla condimentum, nibh ut semper commodo, eros lorem ultricies ligula, sed sollicitudin justo urna non erat. 
+Morbi eros lectus, pulvinar eget tortor in, scelerisque ultricies leo. Quisque cursus ultricies fermentum. 
+Duis tincidunt posuere dui in ullamcorper.
 
 <nbsp>
 
