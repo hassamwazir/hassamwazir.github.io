@@ -41,30 +41,31 @@ $type-size-5                : 1em;      // ~16px
 $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
+$type-size-syntax           : 0.875em;  // ~14px
 
 
 /*
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+   $gray                    : #7a8288;
+   $dark-gray               : mix(#000, $gray, 40%);
+   $darker-gray             : mix(#000, $gray, 60%);
+   $light-gray              : mix(#fff, $gray, 50%);
+   $lighter-gray            : mix(#fff, $gray, 90%);
 
 $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
-$border-color               : $darker-gray;
+$border-color               : $lighter-gray;
 
 $primary-color              : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #000000;
+$info-color                 : #2979ab;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -94,7 +95,7 @@ $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 75%);
+$masthead-link-color-hover  : mix(#fff, $link-color, 25%);
 
 
 /*
@@ -120,9 +121,9 @@ $x-large                    : 1280px !default;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow : 0px;
-$right-sidebar-width        : 0px;
-$right-sidebar-width-wide   : 0px;
+$right-sidebar-width-narrow : 200px !default;
+$right-sidebar-width        : 300px !default;
+$right-sidebar-width-wide   : 400px !default;
 
 $susy: (
   columns: 12,
@@ -151,24 +152,3 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
-
-
-// Color Variables
-$color-primary: #0071c5;
-$color-dark: #202020;
-$color-light: #f8f8f8;
-
-// Theme Variables
-$theme-light: (
-  'bg': $color-light,
-  'text': #333,
-  'link': $color-primary,
-  'link-hover': #005493,
-);
-
-$theme-dark: (
-  'bg': $color-dark,
-  'text': #eee,
-  'link': #4ec4d4,
-  'link-hover': #00a6b1,
-);
