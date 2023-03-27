@@ -109,7 +109,6 @@
 
   @include breakpoint($small) {
     @include gallery(5 of 10);
-    grid-gap: 20px; /* add grid-gap property */
     .archive__item-teaser {
       max-height: 200px;
     }
@@ -119,7 +118,6 @@
     margin-left: 0; /* reset before mixin does its thing*/
     margin-right: 0; /* reset before mixin does its thing*/
     @include gallery(2.5 of 10);
-    grid-gap: 20px; /* add grid-gap property */
     .archive__item-teaser {
       max-height: 120px;
     }
