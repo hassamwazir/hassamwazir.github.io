@@ -1,6 +1,6 @@
 ---
 title: "A Wearable Pendant Sensor to Monitor Compliance with Range of Motion Lymphatic Health Exercise"
-short_title: "WPS Sensor"
+short_title: "Gravity-based ROM Sensor"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-wps.png' alt=''>"
 collection: research
