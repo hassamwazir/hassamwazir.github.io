@@ -2,11 +2,11 @@
 title: "Wearable Inertial Sensors for Exergames"
 short_title: "The WISE Project"
 layout: single-portfolio
-excerpt: "<img src='/images/research/wise_thumbnail.png' alt=''>"
+excerpt: "<img src='/images/research/wise-thumbnail.png' alt=''>"
 collection: research
 order_number: 10
 header: 
-og_image: "research/wise_thumbnail.png"
+og_image: "research/wise-thumbnail.png"
 # date: 2021-04-01
 
 ---
