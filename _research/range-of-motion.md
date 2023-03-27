@@ -4,7 +4,7 @@ short_title: "Range of Motion"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-wps.png' alt=''>"
 collection: research
-order_number: 10
+order_number: 1
 header: 
 og_image: "research/thumbnail-wps.png.png"
 # date: 2021-04-01
