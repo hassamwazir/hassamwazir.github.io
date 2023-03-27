@@ -22,13 +22,13 @@ This paper proposes using a Digital Voice Assistant for Range of Motion measurem
 **Clinical relevance** — This paper introduces the concept of ROM measurement using digital voice assistants embedded with a monocular camera
 
 ---
-**A Wearable Pendant Sensor to Monitor Compliance with Range of Motion Lymphatic Health Exercise**
+## A Wearable Pendant Sensor to Monitor Compliance with Range of Motion Lymphatic Health Exercise
 
 A portable and wearable medical device to monitor compliance with the TOLF therapy.
 
 **Authors:** [Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), [Satish Reddy Bethi](https://scholar.google.com/citations?user=QdEyUtEAAAAJ&hl=en), [Ashwin Raj Kumar](https://scholar.google.com/citations?user=FJXcZW0AAAAJ&hl=en), and [Vikram Kapila](https://scholar.google.com/citations?user=6PTJF28AAAAJ&hl=en)
 
-## Abstract
+**Abstract**
 
 > Lymphedema is a chronic and debilitating condition affecting 1 in 1000 Americans and there is no known cure for it. The optimal lymph flow (TOLF) is an effective preventive exercise program designed to reduce the risks of lymphedema. This paper proposes a portable and wearable medical device to monitor compliance with the TOLF therapy. Specifically, the wearable pendant sensor (WPS), a low-fidelity prototype of the proposed design, is developed and tested in comparison with a markerless optical motion capture system (Kinect) for measurement accuracy during shoulder abduction-adduction and flexion-extension exercises. It is shown that the Kendall’s Tau between the measurements obtained from the WPS and Kinect devices yields a correlation coefficient $\rho = 0.807$ for abduction-adduction exercise and $\rho = 0.783$ for flexion-extension exercise with a significance level of $p < 0.001$, indicating a strong correlation and high statistical significance. Following careful clinical assessment and validation, preliminary engineering design of this paper can be transformed into an Internet of Things (IoT)-based medical device to facilitate telemonitoring of TOLF therapy. Deployment of such an IoT-based device in patient homes can permit remote assessment of motor function to enhance treatment adherence.
 **Clinical Relevance** — This paper documents a WPS with potential to render an IoT-based medical device for monitoring adherence to TOLF exercise program to prevent the risk of post-operative lymphedema.  
