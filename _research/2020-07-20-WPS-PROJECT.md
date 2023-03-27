@@ -1,6 +1,6 @@
 ---
 title: "Range of Motion"
-short_title: "Range of Motion Sensor"
+short_title: "Range of Motion"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-wps.png' alt=''>"
 collection: research
@@ -21,6 +21,13 @@ This paper proposes using a Digital Voice Assistant for Range of Motion measurem
 > Range of motion (ROM) is an important indicator of an individual's physical health, and its degradation impacts their ability to perform activities of daily living. The elderly are particularly susceptible to mobility loss due to muscular decline, neuromuscular disorders, sedentary lifestyle, etc. Thus, they must undergo periodic ROM assessments to track their physical well-being and consult doctors for any decline in ROM. An at-home ROM assessment device can assist the elderly to self-perform ROM assessment and facilitate remote monitoring of and compliance to therapy. The pervasive adoption of digital voice assistants (DVAs), that include a monocular camera, offers an opportunity for at-home ROM assessment. This paper proposes using a DVA for ROM measurement by utilizing 2D pose estimation techniques to estimate 3D limb pose for specific exercises. The system employs the MediaPipe library to perform 2D pose estimation and uses the joint coordinates to find the 3D pose of the limb using a 2D projection method. To validate the system, it is first compared with a 3D human model performing various shoulder and elbow exercises in a virtual environment. Next, for further validation, a neurologically intact individual performs the same exercises and the results of the proposed system are compared with the results from a markerless optical motion capture system (Kinect). The Bland-Altman limits of agreement (LOA) are computed and provided for the two sets of comparisons. The results demonstrate the feasibility of the proposed system in providing reliable ROM measurements using a DVA and suggest possible enhancements.  
 **Clinical relevance** — This paper introduces the concept of ROM measurement using digital voice assistants embedded with a monocular camera
 
+*(Pyhon programming, MediaPipe, Data acquisition, processing, and visualization)*
+
+**Tech:** Python, MATLAB, Web sockets, IFTTT
+
+[Article](https://ieeexplore.ieee.org/abstract/document/9870888){: .btn--research} [Preprint](/files/pdf/research/-roma-dva-preprint.pdf){: .btn--research}
+<!-- [Supplemental Information](/files/pdf/research/Turning the Lights on SI.pdf){: .btn--research} [Replication Archive](https://journals.sagepub.com/doi/suppl/10.1177/07388942211015242){: .btn--research} [GitHub Repo](https://github.com/jayrobwilliams/conflict-preemption){: .btn--research} [Poster](/files/pdf/research/PSS 2018 Poster.pdf){: .btn--research} -->
+
 ---
 ## A Wearable Pendant Sensor to Monitor Compliance with Range of Motion Lymphatic Health Exercise
 
@@ -31,7 +38,7 @@ A portable and wearable medical device to monitor compliance with the TOLF thera
 **Abstract**
 
 > Lymphedema is a chronic and debilitating condition affecting 1 in 1000 Americans and there is no known cure for it. The optimal lymph flow (TOLF) is an effective preventive exercise program designed to reduce the risks of lymphedema. This paper proposes a portable and wearable medical device to monitor compliance with the TOLF therapy. Specifically, the wearable pendant sensor (WPS), a low-fidelity prototype of the proposed design, is developed and tested in comparison with a markerless optical motion capture system (Kinect) for measurement accuracy during shoulder abduction-adduction and flexion-extension exercises. It is shown that the Kendall’s Tau between the measurements obtained from the WPS and Kinect devices yields a correlation coefficient $\rho = 0.807$ for abduction-adduction exercise and $\rho = 0.783$ for flexion-extension exercise with a significance level of $p < 0.001$, indicating a strong correlation and high statistical significance. Following careful clinical assessment and validation, preliminary engineering design of this paper can be transformed into an Internet of Things (IoT)-based medical device to facilitate telemonitoring of TOLF therapy. Deployment of such an IoT-based device in patient homes can permit remote assessment of motor function to enhance treatment adherence.  
-**Clinical Relevance** — This paper documents a WPS with potential to render an IoT-based medical device for monitoring adherence to TOLF exercise program to prevent the risk of post-operative lymphedema.  
+**Clinical relevance** — This paper documents a WPS with potential to render an IoT-based medical device for monitoring adherence to TOLF exercise program to prevent the risk of post-operative lymphedema.  
 
 *(Arduino programming, Data acquisition, processing, and visualization)*
 
