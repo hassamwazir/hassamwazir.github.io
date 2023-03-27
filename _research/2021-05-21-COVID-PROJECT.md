@@ -2,11 +2,11 @@
 title: "Remote control of a dialysis machine"
 short_title: "COVID-19 Project"
 layout: single-portfolio
-excerpt: "<img src='/images/research/covid-thumbnail.png' alt=''>"
+excerpt: "<img src='/images/research/thumbnail-covid.png' alt=''>"
 collection: research
 order_number: 10
 header: 
-og_image: "research/covid-thumbnail.png"
+og_image: "research/thumbnail-covid.png"
 # date: 2021-05-12
 
 ---

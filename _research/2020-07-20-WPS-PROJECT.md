@@ -2,11 +2,11 @@
 title: "A Wearable Pendant Sensor to Monitor Compliance with Range of Motion Lymphatic Health Exercise"
 short_title: "Wearable Pendant Sensor"
 layout: single-portfolio
-excerpt: "<img src='/images/research/wps-thumbnail.png' alt=''>"
+excerpt: "<img src='/images/research/thumbnail-wps.png' alt=''>"
 collection: research
 order_number: 10
 header: 
-og_image: "research/wps-thumbnail.png"
+og_image: "research/thumbnail-wps.png.png"
 # date: 2021-04-01
 
 ---
