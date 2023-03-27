@@ -13,7 +13,7 @@ og_image: "research/wps_thumbnail.png"
 
 A portable and wearable medical device to monitor compliance with the TOLF therapy.
 
-Authors: [Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), [Satish Reddy Bethi](https://scholar.google.com/citations?user=QdEyUtEAAAAJ&hl=en), [Ashwin Raj Kumar](https://scholar.google.com/citations?user=FJXcZW0AAAAJ&hl=en), and [Vikram Kapila](https://scholar.google.com/citations?user=6PTJF28AAAAJ&hl=en)
+**Authors:** [Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), [Satish Reddy Bethi](https://scholar.google.com/citations?user=QdEyUtEAAAAJ&hl=en), [Ashwin Raj Kumar](https://scholar.google.com/citations?user=FJXcZW0AAAAJ&hl=en), and [Vikram Kapila](https://scholar.google.com/citations?user=6PTJF28AAAAJ&hl=en)
 
 ## Abstract
 

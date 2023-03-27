@@ -13,7 +13,7 @@ og_image: "research/covid_thumbnail.png"
 
 A robotic manipulator was used to remotely interact with a dialysis machine instrument control panel in the context of the COVID-19 pandemic.
 
-Authors: [Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), [Christian Lourido](https://scholar.google.com/citations?user=gdHZ9ygAAAAJ&hl=en), [Sonia Mary Chacko](https://scholar.google.com/citations?user=AphxHkcAAAAJ&hl=en), and [Vikram Kapila](https://scholar.google.com/citations?user=6PTJF28AAAAJ&hl=en)
+**Authors:** [Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), [Christian Lourido](https://scholar.google.com/citations?user=gdHZ9ygAAAAJ&hl=en), [Sonia Mary Chacko](https://scholar.google.com/citations?user=AphxHkcAAAAJ&hl=en), and [Vikram Kapila](https://scholar.google.com/citations?user=6PTJF28AAAAJ&hl=en)
 
 ## Abstract
 
