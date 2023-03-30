@@ -25,7 +25,7 @@ This paper proposes using a Digital Voice Assistant for Range of Motion measurem
 
 **Tech:** Python, MATLAB, Web sockets, IFTTT
 
-[Article](https://ieeexplore.ieee.org/abstract/document/9870888){: .btn--research} [Preprint](/files/pdf/research/-roma-dva-preprint.pdf){: .btn--research}
+[Article](https://ieeexplore.ieee.org/abstract/document/9870888){: .btn--research} [Preprint](/files/pdf/research/roma-dva-preprint.pdf){: .btn--research}
 <!-- [Supplemental Information](/files/pdf/research/Turning the Lights on SI.pdf){: .btn--research} [Replication Archive](https://journals.sagepub.com/doi/suppl/10.1177/07388942211015242){: .btn--research} [GitHub Repo](https://github.com/jayrobwilliams/conflict-preemption){: .btn--research} [Poster](/files/pdf/research/PSS 2018 Poster.pdf){: .btn--research} -->
 
 ---
