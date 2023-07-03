@@ -15,7 +15,7 @@ author_profile: true
 - ME-UY 3411: Automatic Controls Laboratory (Fall 2020)
 - ME-UY 3411: Automatic Controls Laboratory (Spring 2020)
 - ME-UY 3411: Automatic Controls Laboratory (Fall 2019)
-- [Summer Program in Automation, Robotics, and Coding (SPARC) (Summer 2019)](/_teaching/2019-SPARC.md)
+- Summer Program in Automation, Robotics, and Coding (SPARC) (Summer 2019)
 - ME-UY 3411: Automatic Controls Laboratory (Spring 2019)
     - [Syllabus](/files/pdf/teaching/automaticControlLab.pdf)
 - ME-UY 3511: Measurement Systems Laboratory (Fall 2018)
