@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## New York University
+<!-- ## New York University
 ---
 - ME-UY 3411: Automatic Controls Laboratory (Spring 2023)
 - ME-UY 3411: Automatic Controls Laboratory (Fall 2022)
@@ -19,4 +19,11 @@ author_profile: true
 - ME-UY 3411: Automatic Controls Laboratory (Spring 2019)
     - [Syllabus](/files/pdf/teaching/automaticControlLab.pdf)
 - ME-UY 3511: Measurement Systems Laboratory (Fall 2018)
-    - [Syllabus](/files/pdf/teaching/measurementSystemsLab.pdf)
+    - [Syllabus](/files/pdf/teaching/measurementSystemsLab.pdf) -->
+
+    
+{% include base_path %}
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
