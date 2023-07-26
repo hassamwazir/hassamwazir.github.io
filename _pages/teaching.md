@@ -7,7 +7,7 @@ author_profile: true
 
 ## New York University
 ---
-- Instructor
+- **Instructor**
   - ME-UY 3411: Automatic Controls Laboratory (Spring 2023)
   - ME-UY 3411: Automatic Controls Laboratory (Fall 2022)
   - ME-UY 3411: Automatic Controls Laboratory (Spring 2022)
@@ -21,7 +21,7 @@ author_profile: true
       - [Syllabus](/files/pdf/teaching/automaticControlLab.pdf)
   - ME-UY 3511: Measurement Systems Laboratory (Fall 2018)
       - [Syllabus](/files/pdf/teaching/measurementSystemsLab.pdf)
-- Mentor
+- **Mentor**
   - Applied Research Innovations in Science and Engineering ([ARISE](https://engineering.nyu.edu/academics/programs/k12-stem-education/arise)) Mentor (Summer 2022)
   - Applied Research Innovations in Science and Engineering ([ARISE](https://engineering.nyu.edu/academics/programs/k12-stem-education/arise)) Mentor (Fall 2020)
 
