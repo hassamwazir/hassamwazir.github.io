@@ -24,10 +24,10 @@ author_profile: true
 - **Mentor**
   - Applied Research Innovations in Science and Engineering ([ARISE](https://engineering.nyu.edu/academics/programs/k12-stem-education/arise)) Mentor (Summer 2022)
   - Applied Research Innovations in Science and Engineering ([ARISE](https://engineering.nyu.edu/academics/programs/k12-stem-education/arise)) Mentor (Fall 2020)
+ -->
 
-
-<!-- {% include base_path %}
+{% include base_path %}
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
-{% endfor %} --> -->
+{% endfor %}
