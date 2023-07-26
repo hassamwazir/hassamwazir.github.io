@@ -7,7 +7,7 @@ author_profile: true
 
 ## New York University
 ---
-- [ME-UY 3411: Automatic Controls Laboratory (Spring 2023)]
+- ME-UY 3411: Automatic Controls Laboratory (Spring 2023)
 - ME-UY 3411: Automatic Controls Laboratory (Fall 2022)
 - ME-UY 3411: Automatic Controls Laboratory (Spring 2022)
 - ME-UY 3411: Automatic Controls Laboratory (Fall 2021)
