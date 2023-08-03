@@ -15,11 +15,6 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
   ---
 {% endfor %}
 
-
-# Patents
-
----
-{% include base_path %}
   
 {% for post in site.patents reversed %}
   {% include archive-single.html %}
