@@ -14,3 +14,12 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
   {% include archive-single.html %}
   ---
 {% endfor %}
+
+---
+
+## Patents
+  
+  {% for post in site.patents reversed %}
+    {% include archive-single.html %}
+    ---
+  {% endfor %}
