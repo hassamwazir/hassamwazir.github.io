@@ -60,9 +60,9 @@ redirect_from:
 
 * <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Frameworks:</div> <div style="display: inline-block; text-align: left; width: 70%;">Scikit, TensorFlow, Keras, PyTorch, ROS, Flask</div>
 
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Tools:</div> <div style="display: inline-block; text-align: left; width: 70%;">Docker, GIT, Unity, MATLAB, SolidWorks</div>
+* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Tools:</div> <div style="display: inline-block; text-align: left; width: 70%;">STM32 Cube IDE, Docker, GIT, Unity, MATLAB, SolidWorks</div>
 
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Platforms:</div> <div style="display: inline-block; text-align: left; width: 70%;">Linux, Web, Windows, Arduino, Raspberry, GCP</div>
+* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Platforms:</div> <div style="display: inline-block; text-align: left; width: 70%;">Linux, Web, Windows, Arduino, Raspberry Pi, GCP</div>
 
 
 ---
