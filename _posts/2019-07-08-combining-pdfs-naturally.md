@@ -1,9 +1,13 @@
 ---
-title: 'This is a test post'
-date: 2019-07-08
-permalink: /posts/2019/07/combining-pdfs-naturally/
-excerpt_separator: <!--more-->
+title: "This is a test post"
+page_title: "This is a test post"
+excerpt: "This is a test post. In this file"
+date: July 7, 2019
 toc: true
+toc_label: "Content"
+toc_sticky: true
+last_modified_at: July 7, 2019
+# og_image: /assets/images/posts/dicom-basics/dicom-basics-header.jpg
 tags:
   - references
   - bash

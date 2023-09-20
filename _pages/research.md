@@ -1,10 +1,10 @@
 ---
-layout: archive
-title: "Research"
+title:  Research
+page_title: Research
+layout: single
 permalink: /research/
 author_profile: true
-header:
-  og_image: "research/ecdf.png"
+comments: false
 ---
 
 <!-- My research focuses on the convergence of frontier technologies to advance digital health and telerehabilitation, with a particular emphasis on applications for the geriatric population.

@@ -1,8 +1,10 @@
 ---
+title:  Teaching
+page_title: Teaching
 layout: archive
-title: "Teaching"
 permalink: /teaching/
 author_profile: true
+comments: false
 ---
 
 ## New York University
