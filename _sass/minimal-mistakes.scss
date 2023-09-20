@@ -12,6 +12,9 @@
 @include breakpoint-set("to ems", true);
 @import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
 @import "minimal-mistakes/vendor/susy/susy";
+@import "minimal-mistakes/vendor/font-awesome/fontawesome";
+@import "minimal-mistakes/vendor/font-awesome/solid";
+@import "minimal-mistakes/vendor/font-awesome/brands";
 @import "minimal-mistakes/mixins";
 
 /* Core CSS */
