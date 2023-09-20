@@ -1,7 +1,7 @@
 ---
 title:  "About me"
 page_title: "About me"
-layout: default
+layout: archive
 permalink: /about/
 author_profile: true
 comments: false
