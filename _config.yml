@@ -8,6 +8,12 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Hassam Khan Wazir"
+minimal_mistakes_skin    : "default"
+minimal_mistakes_skin_dark: "dark"
+
+logo                     : "/assets/brand/logo.svg"
+logo_dark                : "/assets/brand/logo_dark.svg"
+
 title_separator          : "-"
 name                     : &name "Hassam Khan Wazir"
 description              : &description "Ph.D. in Mechanical Engineering"
