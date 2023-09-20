@@ -351,7 +351,7 @@ defaults:
       comments: true
   # _research
   - scope:
-      path: ""
+      path: "_research"
       type: research
     values:
       layout: single
