@@ -3,6 +3,7 @@ title: "This is a test post"
 page_title: "This is a test post"
 excerpt: "This is a test post. In this file"
 date: July 7, 2019
+permalink: /posts/2019/07/combining-pdfs-naturally/
 toc: true
 toc_label: "Content"
 toc_sticky: true
