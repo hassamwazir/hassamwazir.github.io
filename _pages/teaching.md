@@ -1,7 +1,7 @@
 ---
 title:  Teaching
 page_title: Teaching
-layout: archive
+layout: single
 permalink: /teaching/
 author_profile: true
 comments: false
