@@ -23,7 +23,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : &name "Hassam Khan Wazir"
 port                     : 4000
 host                     : "0.0.0.0"
-description              : "A blog discussing topics around programming, data science/engineering, and cloud technologies."
+description              : "Ph.D. in Mechanical Engineering"
 url                      : https://hassamwazir.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hassamwazir/hassamwazir.github.io"
@@ -358,11 +358,11 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # # _talks
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
