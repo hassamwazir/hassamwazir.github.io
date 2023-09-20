@@ -1,7 +1,7 @@
 ---
 title:  Publications
 page_title: Publications
-layout: single
+layout: archive
 permalink: /publications/
 author_profile: true
 comments: false
