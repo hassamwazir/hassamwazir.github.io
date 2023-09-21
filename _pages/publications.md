@@ -13,6 +13,6 @@ You can also find my articles on my <a href="https://scholar.google.com/citation
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% include archive.html %}
   ---
 {% endfor %}
