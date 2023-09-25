@@ -1,10 +1,8 @@
 ---
-title:  "About me"
-page_title: "About me"
-layout: archive
-permalink: /about/
+permalink: /
+title: "About me"
+excerpt: "About me"
 author_profile: true
-comments: false
 redirect_from: 
   - /about/
   - /about.html
