@@ -8,10 +8,8 @@
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-  {% assign short_title = post.short_title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
-  {% assign short_title = post.short_title %}
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
@@ -33,8 +31,6 @@
         {{ title }}
       {% elsif post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% elsif post.collection == 'research' %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ short_title }}</a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
