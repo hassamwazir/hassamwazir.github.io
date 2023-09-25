@@ -1,5 +1,5 @@
 ---
-title: "A COVID-19 Emergency Response for Remote Control of a Dialysis Machine with Mobile HRI"
+title: "COVID-19 Project"
 short_title: "COVID-19 Project"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-covid.png' alt=''>"
