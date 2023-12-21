@@ -52,5 +52,7 @@ This is a guide for logging into the NYU HPC cluster and streamlining that proce
       ForwardX11 yes
       User <netid>
     ```
+    
+  **Note:** in Windows 10, the `~/.ssh/config` file is located at `C:\Users\<username>\.ssh\config`.
 
   Now you can log into the login node by simply running the command `ssh greene`.
