@@ -6,7 +6,6 @@
   margin-bottom: 2em;
 
   @include breakpoint($medium) {
-    padding-right: $right-sidebar-width-narrow;
     @include span(12 of 12);
   }
 
@@ -75,11 +74,33 @@
   }
 }
 
+.archive__item:hover {
+  .archive__item-teaser {
+    box-shadow: 0 0 10px rgba(#000, 0.25);
+  }
+
+  .archive__item-title {
+    text-decoration: underline;
+  }
+}
+
+
 /*
    List view
    ========================================================================== */
 
 .list__item {
+  @include breakpoint($medium) {
+    padding-right: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($large) {
+    padding-right: $right-sidebar-width;
+  }
+
+  @include breakpoint($x-large) {
+    padding-right: $right-sidebar-width-wide;
+  }
 
   .page__meta {
     margin: 0 0 4px;
@@ -118,6 +139,7 @@
     margin-left: 0; /* reset before mixin does its thing*/
     margin-right: 0; /* reset before mixin does its thing*/
     @include gallery(2.5 of 10);
+
     .archive__item-teaser {
       max-height: 120px;
     }

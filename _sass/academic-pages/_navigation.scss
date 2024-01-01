@@ -185,7 +185,7 @@
     text-decoration: none;
 
     &:hover {
-      color: $link-color;
+      color: $masthead-link-color-hover;
     }
   }
 
@@ -232,7 +232,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: $masthead-link-color-hover;
+        background: mix(#fff, $primary-color, 50%);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -372,6 +372,7 @@
 .toc {
   font-family: $sans-serif-narrow;
   color: $gray;
+  text-transform: uppercase;
   letter-spacing: 1px;
   background-color: #fff;
   border: 1px solid $border-color;
@@ -409,24 +410,23 @@
     }
   }
 
+  > li:last-child {
+    a {
+      border-bottom: none;
+    }
+  }
+
   li ul > li a {
-    padding-left: 1.25rem;
+    padding-left: 2rem;
     font-weight: normal;
   }
 
-  li ul li ul > li a {
-    padding-left: 1.75rem;
-  }
+  /* hide sub sub links on small screens*/
+  li > ul li {
+    display: none;
 
-  li ul li ul li ul > li a {
-    padding-left: 2.25rem;
-  }
-
-  li ul li ul li ul li ul > li a {
-    padding-left: 2.75rem;
-  }
-
-  li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    @include breakpoint($medium) {
+      display: block;
+    }
   }
 }
