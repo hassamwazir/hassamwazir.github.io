@@ -1,8 +1,8 @@
 ---
 title: "ME-UY 3411: Automatic Controls Laboratory (Spring 2022)"
-collection: teaching
+collection: teaching_backup
 type: "Undergraduate course"
-permalink: /teaching/2022-Spring-Automatic-Controls-Lab
+permalink: /teaching_backup/2022-Spring-Automatic-Controls-Lab
 venue: "NYU Tandon School of Engineering"
 date: 2022-01-23
 location: "New York, USA"
