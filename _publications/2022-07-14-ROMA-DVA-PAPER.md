@@ -1,6 +1,7 @@
 ---
 title: "Range of Motion Assessment using a Digital Voice Assistant"
 collection: publications
+type: "Conference Paper"
 permalink: /publication/2022-07-14-ROMA-DVA-PAPER
 date: 2022-07-14
 venue: '44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)'
