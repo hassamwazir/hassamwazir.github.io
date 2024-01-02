@@ -1,6 +1,6 @@
 ---
 title: "Summer Program in Automation, Robotics, and Coding (SPARC) (Summer 2019)"
-collection: teaching
+collection: teaching_backup
 type: "Summer program"
 permalink: /teaching_backup/2019-SPARC
 venue: "NYU Tandon School of Engineering"

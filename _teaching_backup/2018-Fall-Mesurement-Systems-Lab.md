@@ -1,6 +1,6 @@
 ---
 title: "ME-UY 3511: Measurement Systems Laboratory (Fall 2018)"
-collection: teaching
+collection: teaching_backup
 type: "Undergraduate course"
 permalink: /teaching_backup/2018-Fall-Measurement-Systems-Lab
 venue: "NYU Tandon School of Engineering"

@@ -207,6 +207,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  teaching_backup:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -264,6 +267,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _teaching_backup
+  - scope:
+      path: ""
+      type: teaching_backup
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 # Sass/SCSS
 sass:
