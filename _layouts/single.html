@@ -55,8 +55,8 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
         <!-- {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %} -->
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn"><i class="fas fa-link"></i></a></div>{% endif %}
-        {% if page.paperurl %}<div><a href="{{ page.paperurl }}" class="btn"><i class="fas fa-file-pdf"></i></a></div>{% endif %}
+        {% if page.link %}<div style="display: inline-block;"><a href="{{ page.link }}" class="btn"><i class="fas fa-link"></i></a></div>{% endif %}
+        {% if page.paperurl %}<div style="display: inline-block;"><a href="{{ page.paperurl }}" class="btn"><i class="fas fa-file-pdf"></i></a></div>{% endif %}
       </section>
 
       <footer class="page__meta">
