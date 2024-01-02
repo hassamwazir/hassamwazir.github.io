@@ -20,7 +20,7 @@ author_profile: true
   - Summer Program in Automation, Robotics, and Coding ([SPARC](https://engineering.nyu.edu/academics/programs/k12-stem-education/sparc)) (Summer 2019)
   - [ME-UY 3411: Automatic Controls Laboratory (Spring 2019)](/teaching_backup/2019-Fall-Automatic-Controls-Lab)
       - [Syllabus](/files/pdf/teaching/automaticControlLab.pdf)
-  - [ME-UY 3511: Measurement Systems Laboratory (Fall 2018)](/teaching_backup/2018-Fall-Mesurement-Systems-Lab)
+  - [ME-UY 3511: Measurement Systems Laboratory (Fall 2018)](/teaching_backup/2018-Fall-Measurement-Systems-Lab)
       - [Syllabus](/files/pdf/teaching/measurementSystemsLab.pdf)
 - **Mentor**
   - Applied Research Innovations in Science and Engineering ([ARISE](https://engineering.nyu.edu/academics/programs/k12-stem-education/arise)) Mentor (Summer 2022)
