@@ -2,7 +2,7 @@
 title: "ME-UY 3411: Automatic Controls Laboratory (Fall 2020)"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2020-Fall-Automatic-Controls-Lab
+permalink: /teaching_backup/2020-Fall-Automatic-Controls-Lab
 venue: "NYU Tandon School of Engineering"
 date: 2020-07-03
 location: "New York, USA"
