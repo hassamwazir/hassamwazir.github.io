@@ -53,13 +53,21 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl %}
+    <!-- {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+    {% endif %} -->
+    {% if post.citation %}
+      <p>Recommended citation: {{ post.citation }} </p>
     {% endif %}
+
+    {% if page.link %}<div style="display: inline-block;"><a href="{{ page.link }}" class="btn"><i class="fas fa-link"></i></a></div>{% endif %}
+    {% if page.paperurl %}<div style="display: inline-block;"><a href="{{ page.paperurl }}" class="btn"><i class="fas fa-file-pdf"></i></a></div>{% endif %}
+    <!-- {% if page.code %}<div style="display: inline-block;"><a href="{{ page.code }}" class="btn"><i class="fas fa-code"></i></a></div>{% endif %} -->
+    {% if page.github %}<div style="display: inline-block;"><a href="{{ page.code }}" class="btn"><i class="fa-brands fa-github"></i></a></div>{% endif %}    
 
   </article>
 </div>
