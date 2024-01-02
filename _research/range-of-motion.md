@@ -1,7 +1,7 @@
 ---
 title: "Range of Motion"
 short_title: "Range of Motion"
-layout: single-portfolio
+# layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-wps.png' alt=''>"
 collection: research
 order_number: 1

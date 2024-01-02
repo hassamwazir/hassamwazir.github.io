@@ -1,7 +1,7 @@
 ---
 title: "Wi-Fi Localization"
 short_title: "Wi-Fi Localization"
-layout: single-portfolio
+# layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-wise.png' alt=''>"
 collection: research
 order_number: 10

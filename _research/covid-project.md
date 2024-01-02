@@ -1,7 +1,7 @@
 ---
 title: "COVID-19 Project"
 short_title: "COVID-19 Project"
-layout: single-portfolio
+# layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-covid.png' alt=''>"
 collection: research
 order_number: 10
