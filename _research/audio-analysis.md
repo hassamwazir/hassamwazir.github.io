@@ -1,7 +1,7 @@
 ---
 title: "Audio Analysis"
 short_title: "Audio Analysis"
-# layout: archive
+layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-audio.png' alt=''>"
 collection: research
 order_number: 10
