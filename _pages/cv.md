@@ -12,9 +12,10 @@ redirect_from:
 ---
 ## Education
 
-* <div style="display: block; text-align: left; font-weight: bold;">New York University</div> <div style="display: block; text-align: right;">New York, USA</div>
-
-  <div style="display: block; text-align: left;">Doctor of Philosophy - Mechanical Engineering</div> <div style="display: block; text-align: right;">September 2018 - 2023 (expected)</div>
+* <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">New York University</div>
+    <div style="text-align: right;">New York, USA</div>
+  </div>
 
   ***Courses:*** *Robot perception, Robots for disability, Machine learning, Probability and stochastic processes, Optimal and learning control for robotics, Robotic gait and manipulation, Writing and communication for engineers, Interactive medical robotics*
 
