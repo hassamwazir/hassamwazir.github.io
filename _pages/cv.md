@@ -17,16 +17,34 @@ redirect_from:
     <div style="text-align: right;">New York, USA</div>
   </div>
 
+  <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">Doctor of Philosophy - Mechanical Engineering</div>
+    <div style="text-align: right;">September 2018 - May 2024 (expected)</div>
+  </div>
+
   ***Courses:*** *Robot perception, Robots for disability, Machine learning, Probability and stochastic processes, Optimal and learning control for robotics, Robotic gait and manipulation, Writing and communication for engineers, Interactive medical robotics*
 
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>
+* <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">New York University</div>
+    <div style="text-align: right;">New York, USA</div>
+  </div>
 
-  <div style="display: inline-block; text-align: left; width: 60%;">Master of Science - Mechatronics and Robotics</div> <div style="display: inline-block; text-align: right; width: 40%;">September 2016 - May 2018</div>  
+  <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">Master of Science - Mechatronics and Robotics</div>
+    <div style="text-align: right;">September 2016 - May 2018</div>
+  </div>
 
   ***Courses:*** *Mechatronics, Simulation tools for robotics, Introduction to robot mechanics, Advanced mechatronics, Fundamentals of robot mobility, Entrepreneurship, Linear control theory and design, Networked robotics systems*
 
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">Universiti Teknologi Brunei</div> <div style="display: inline-block; text-align: right; width: 50%;">Bandar Seri Begawan, Brunei Darussalam</div>  
-  <div style="display: inline-block; text-align: left; width: 60%;">Bachelor of Engineering - Electrical and Communication Engineering</div> <div style="display: inline-block; text-align: right; width: 40%;"> August 2010 - October 2014</div>
+* <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">Universiti Teknologi Brunei</div>
+    <div style="text-align: right;">Bandar Seri Begawan, Brunei Darussalam</div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">Bachelor of Engineering - Electrical and Communication Engineering</div>
+    <div style="text-align: right;">August 2010 - October 2014</div>
+  </div>
 
   ***Course:*** *Fiber optic communications, Microwave systems, Communication systems, Embedded systems, Control systems, Microcomputer engineering, Electromagnetic fields and waves, Electrical circuits, Digital electronics, Mathematics for engineers*
 
@@ -35,22 +53,41 @@ redirect_from:
 ## Work experience
 
 <!-- * **New York University** | New York, USA   -->
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
-  <div style="display: inline-block; text-align: left; width: 50%;">Graduate Assistant</div> <div style="display: inline-block; text-align: right; width: 50%;">January 2019 - Present</div>
+* <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">New York University</div>
+    <div style="text-align: right;">New York, USA</div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">Graduate Assistant</div>
+    <div style="text-align: right;">January 2019 - Present</div>
+  </div>
 
   * **Course:** Automatic Control Systems Laboratory
     * **Teaching:** Teach a laboratory course that introduces students to data acquisition and control boards, system modeling, identification, and control, and methods such as PID control and LQR control
 
+* <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">New York University</div>
+    <div style="text-align: right;">New York, USA</div>
+  </div>
 
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">New York University</div> <div style="display: inline-block; text-align: right; width: 50%;">New York, USA</div>  
-  <div style="display: inline-block; text-align: left; width: 50%;">Graduate Assistant</div> <div style="display: inline-block; text-align: right; width: 50%;">September 2018 - December 2018</div>  
+  <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">Graduate Assistant</div>
+    <div style="text-align: right;">September 2018 - December 2018</div>
+  </div> 
 
   * **Course:** Measurement Systems Laboratory
     * **Teaching:** Taught a laboratory course that introduced students to standard laboratory equipment, data acquisition and control boards, measurement techniques related to temperature, frequency, electricity, rotation, and harmonics
 
+* <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">LearnOBots</div>
+    <div style="text-align: right;">Islamabad, Pakistan</div>
+  </div>
 
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 50%;">LearnOBots</div> <div style="display: inline-block; text-align: right; width: 50%;">Islamabad, Pakistan</div>  
-  <div style="display: inline-block; text-align: left; width: 50%;">Trainee Engineer</div> <div style="display: inline-block; text-align: right; width: 50%;">June 2016 - August 2016</div>  
+  <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">Trainee Engineer</div>
+    <div style="text-align: right;">June 2016 - August 2016</div>
+  </div> 
 
   * **Teaching:** Taught courses related to Science, Technology, Engineering, Arts, and Mathematics to highshool students
   * **Hands-on Experience:** Designed, developed, and maintained modules and kits used to teach concepts related to Science, Technology, Engineering, Arts, and Mathematics
@@ -59,13 +96,25 @@ redirect_from:
 ---
 ## Skills
 
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Languages:</div> <div style="display: inline-block; text-align: left; width: 70%;">Python, C, C#, C++, JavaScript</div>
+* <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">Languages:</div>
+    <div style="text-align: right;">Python, C, C#, C++, JavaScript</div>
+  </div>
 
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Frameworks:</div> <div style="display: inline-block; text-align: left; width: 70%;">Scikit, TensorFlow, Keras, PyTorch, ROS, Flask</div>
+* <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">Frameworks:</div>
+    <div style="text-align: right;">Scikit, TensorFlow, Keras, PyTorch, ROS, Flask</div>
+  </div>
 
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Tools:</div> <div style="display: inline-block; text-align: left; width: 70%;">STM32 Cube IDE, Docker, GIT, Unity, MATLAB, SolidWorks</div>
+* <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">Tools:</div>
+    <div style="text-align: right;">STM32 Cube IDE, Docker, GIT, Unity, MATLAB, SolidWorks</div>
+  </div>
 
-* <div style="display: inline-block; text-align: left; font-weight: bold; width: 30%;">Platforms:</div> <div style="display: inline-block; text-align: left; width: 70%;">Linux, Web, Windows, Arduino, Raspberry Pi, GCP</div>
+* <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left; font-weight: bold;">Platforms:</div>
+    <div style="text-align: right;">Linux, Web, Windows, Arduino, Raspberry Pi, GCP</div>
+  </div>
 
 
 ---
