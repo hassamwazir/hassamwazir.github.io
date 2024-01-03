@@ -99,7 +99,6 @@ author:
   location         : 
   employer         :
   pubmed           :
-  orcid            : "http://orcid.org/0000-0003-4930-3259"
   googlescholar    : "https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en"
   email            : "hassam.wazir@nyu.edu"
   researchgate     : "https://www.researchgate.net/profile/Hassam-Wazir"
@@ -111,20 +110,19 @@ author:
   facebook         :
   foursquare       :
   github           : "hassamwazir"
-  gitlab           :
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "hassam-khan-wazir-17a732bb"
-  mastodon         :
+  orcid            : "http://orcid.org/0000-0003-4930-3259"
   pinterest        :
   soundcloud       :
-  stackoverflow    :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : # "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
