@@ -1,6 +1,6 @@
 ---
 title: "COVID-19 Project"
-short_title: "COVID-19 Project"
+short_title: "Human-Robot Interaction"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-covid.png' alt=''>"
 collection: research
