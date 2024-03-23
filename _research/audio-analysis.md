@@ -10,7 +10,7 @@ og_image: "research/thumbnail-audio.png"
 # date: 2021-05-12
 
 ---
-## Range of Motion Assessment using a Digital Voice Assistant
+## Wireless Earphone-based Real-Time Monitoring of Breathing Exercises: A Deep Learning Approach
 
 This paper proposes using commodity earphones for real-time breathing channel and phase detection for breathing therapy compliance monitoring.
 
