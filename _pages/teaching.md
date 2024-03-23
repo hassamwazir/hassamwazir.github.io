@@ -9,6 +9,8 @@ author_profile: true
 ---
 
 - **Instructor**
+  - [ME-UY 3411: Automatic Controls Laboratory (Spring 2024)](/teaching_backup/2024-Spring-Automatic-Controls-Lab)
+  - [ME-UY 3411: Automatic Controls Laboratory (Fall 2023)](/teaching_backup/2023-Fall-Automatic-Controls-Lab)
   - [ME-UY 3411: Automatic Controls Laboratory (Spring 2023)](/teaching_backup/2023-Spring-Automatic-Controls-Lab)
   - [ME-UY 3411: Automatic Controls Laboratory (Fall 2022)](/teaching_backup/2022-Fall-Automatic-Controls-Lab)
   - [ME-UY 3411: Automatic Controls Laboratory (Spring 2022)](/teaching_backup/2022-Spring-Automatic-Controls-Lab)
