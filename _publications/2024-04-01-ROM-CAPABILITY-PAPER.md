@@ -3,7 +3,7 @@ title: "Using Capability Maps Tailored to Arm Range of Motion in VR Exergames fo
 collection: publications
 type: "Conference Paper"
 permalink: /publication/2024-04-01-ROM-CAPABILITY-PAPER.md
-date: 2024-04-01
+date: 2024-04-15
 venue: '46th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)'
 paperurl: '/files/pdf/research/rom-capability-preprint.pdf'
 link: ''

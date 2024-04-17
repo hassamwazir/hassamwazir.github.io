@@ -3,7 +3,7 @@ title: "Wireless Earphone-based Real-Time Monitoring of Breathing Exercises: A D
 collection: publications
 type: "Conference Paper"
 permalink: /publication/2024-04-02-LYMPH-BROM-PAPER
-date: 2024-04-02
+date: 2024-04-16
 venue: '46th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)'
 paperurl: '/files/pdf/research/lymph-brom-preprint.pdf'
 link: 'https://arxiv.org/abs/2404.10310'
