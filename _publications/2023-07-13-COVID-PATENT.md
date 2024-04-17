@@ -1,6 +1,6 @@
 ---
 title: "Containment, Treatment, and Removal of Aerosolized Viral Contamination"
-collection: patents
+collection: publications
 type: "Patent"
 permalink: /publication/2023-07-13-COVID-PATENT
 date: 2023-07-13
