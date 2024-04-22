@@ -9,5 +9,5 @@ paperurl: '/files/pdf/research/rom-capability-preprint.pdf'
 link: 'https://arxiv.org/abs/2404.12504'
 github: ''
 # code:
-citation: '**Citation:** C. Lourido, Z. Waghoo, <b>H. K. Wazir</b>, N. Bhagat, and V. Kapila, "Using capability maps tailored to arm range of motion in VR exergames for rehabilitation," <i>in IEEE Engineering in Medicine & Biology Society</i>, 2024, accepted for publication.'
+citation: '<u><b>Citation:</b></u> C. Lourido, Z. Waghoo, <b>H. K. Wazir</b>, N. Bhagat, and V. Kapila, "Using capability maps tailored to arm range of motion in VR exergames for rehabilitation," <i>in IEEE Engineering in Medicine & Biology Society</i>, 2024, accepted for publication.'
 ---
