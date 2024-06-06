@@ -26,7 +26,7 @@ This paper proposes using a Digital Voice Assistant for Range of Motion measurem
 **Tech:** Python, MATLAB, Web sockets, IFTTT
 
 [Article](https://ieeexplore.ieee.org/abstract/document/9870888){: .btn--research} [Preprint](/files/pdf/research/roma-dva-preprint.pdf){: .btn--research}
-<!-- [Supplemental Information](/files/pdf/research/Turning the Lights on SI.pdf){: .btn--research} [Replication Archive](https://journals.sagepub.com/doi/suppl/10.1177/07388942211015242){: .btn--research} [GitHub Repo](https://github.com/jayrobwilliams/conflict-preemption){: .btn--research} [Poster](/files/pdf/research/PSS 2018 Poster.pdf){: .btn--research} -->
+
 
 ---
 ## A Wearable Pendant Sensor to Monitor Compliance with Range of Motion Lymphatic Health Exercise
@@ -45,7 +45,7 @@ A portable and wearable medical device to monitor compliance with the TOLF thera
 **Tech:** Arduino, MATLAB, C++
 
 [Article](https://ieeexplore.ieee.org/abstract/document/9175471){: .btn--research} [Preprint](/files/pdf/research/wps-preprint.pdf){: .btn--research}
-<!-- [Supplemental Information](/files/pdf/research/Turning the Lights on SI.pdf){: .btn--research} [Replication Archive](https://journals.sagepub.com/doi/suppl/10.1177/07388942211015242){: .btn--research} [GitHub Repo](https://github.com/jayrobwilliams/conflict-preemption){: .btn--research} [Poster](/files/pdf/research/PSS 2018 Poster.pdf){: .btn--research} -->
+
 
 ---
 ## Wearable Inertial Sensors for Exergames

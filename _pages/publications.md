@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on my <a href="https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en">Google Scholar profile</a>.
+Here is a list of my academic publications. You can also find my articles on my <a href="https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en">Google Scholar profile</a>.
 
 ---
 {% include base_path %}
