@@ -10,7 +10,28 @@ Here is a list of my academic publications. You can also find my articles on my 
 ---
 {% include base_path %}
 
+## Journal Articles
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
-  ---
+  {% if post.type == "Journal" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+---
+
+## Conference Papers
+{% for post in site.publications reversed %}
+  {% if post.type == "Conference Paper" %}
+    {% include archive-single.html %}
+    
+  {% endif %}
+{% endfor %}
+
+---
+
+## Patents
+{% for post in site.publications reversed %}
+  {% if post.type == "Patent" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}

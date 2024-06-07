@@ -3,13 +3,16 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; /* Ensure it sticks to the top of the viewport */
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  background-color: $background-color; /* Optional: background color to avoid transparency issues */
 
   &__inner-wrap {
     @include clearfix;
