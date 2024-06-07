@@ -19,7 +19,7 @@ redirect_from:
 
   <div style="display: flex; justify-content: space-between;">
     <div style="text-align: left; font-weight: bold;">Doctor of Philosophy - Mechanical Engineering</div>
-    <div style="text-align: right;">September 2018 - May 2024 (expected)</div>
+    <div style="text-align: right;">September 2018 - May 2024</div>
   </div>
 
   ***Courses:*** *Robot perception, Robots for disability, Machine learning, Probability and stochastic processes, Optimal and learning control for robotics, Robotic gait and manipulation, Writing and communication for engineers, Interactive medical robotics*
