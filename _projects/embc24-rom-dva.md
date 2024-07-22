@@ -1,16 +1,18 @@
 ---
-title: "Audio Analysis"
-short_title: "Audio Analysis"
+title: "Range of Motion Assessment using a Digital Voice Assistant"
+short_title: "EMBC2024 Audio Analysis Paper"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-audio.png' alt=''>"
-collection: research
-order_number: 4
+permalink: /project/rom-dva
+collection: projects
+order_number: 10
 header: 
 og_image: "research/thumbnail-audio.png"
+category: "PhD"
+
 # date: 2021-05-12
 
 ---
-## Wireless Earphone-based Real-Time Monitoring of Breathing Exercises: A Deep Learning Approach
 
 This paper proposes using commodity earphones for real-time breathing channel and phase detection for breathing therapy compliance monitoring.
 

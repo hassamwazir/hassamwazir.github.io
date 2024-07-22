@@ -3,8 +3,6 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
-header:
-  og_image: "research/ecdf.png"
 ---
 
 My research focuses on advancing digital health and telerehabilitation by converging frontier technologies, with a particular emphasis on applications for the geriatric population. With the global population aging and healthcare demands increasing, traditional methods are no longer sufficient. Therefore, I aim to introduce data-driven strategies to optimize at-home treatment and empower older individuals to proactively monitor their health, preventing further complications.

@@ -4,7 +4,7 @@ short_title: "Range of Motion"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-wps.png' alt=''>"
 collection: research
-order_number: 1
+order_number: 2
 header: 
 og_image: "research/thumbnail-wps.png.png"
 # date: 2021-04-01
@@ -51,7 +51,7 @@ A portable and wearable medical device to monitor compliance with the TOLF thera
 ## Wearable Inertial Sensors for Exergames
 A wearable multi-sensor based system was developed for upper-extremity range of motion assessment.
 
-**Authors:** [Ashwin Raj Kumar](https://scholar.google.com/citations?user=FJXcZW0AAAAJ&hl=en), [Fabio Vulpi](https://scholar.google.com/citations?user=2iP46TMAAAAJ&hl=en), [Satish Reddy Bethi](https://scholar.google.com/citations?user=QdEyUtEAAAAJ&hl=en), [Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), and [Vikram Kapila](https://scholar.google.com/citations?user=6PTJF28AAAAJ&hl=en)
+**Authors:** [Ashwin Raj Kumar](https://scholar.google.com/citations?user=FJXcZW0AAAAJ&hl=en), [Fabio Vulpi](https://scholar.google.com/citations?user=2iP46TMAAAAJ&hl=en), [Satish Reddy Bethi](https://scholar.google.com/citations?user=QdEyUtEAAAAJ&hl=en), [Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), [Preeti Raghavan](https://scholar.google.com/citations?user=wPT5vXAAAAAJ&hl=en&oi=ao), and [Vikram Kapila](https://scholar.google.com/citations?user=6PTJF28AAAAJ&hl=en)
 
 **Abstract**
 

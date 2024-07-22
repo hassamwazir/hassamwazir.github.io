@@ -18,7 +18,7 @@
 
   @include breakpoint($large) {
     position: fixed;
-    top: 70px;
+    top: 100px;
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
     opacity: 0.9;

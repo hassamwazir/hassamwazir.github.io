@@ -1,16 +1,18 @@
 ---
-title: "Audio Analysis"
-short_title: "Audio Analysis"
+title: "A minimalistic puppeteering robot that can convey human emotions"
+short_title: "A minimalistic puppeteering robot that can convey human emotions"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-audio.png' alt=''>"
-collection: research
-order_number: 4
+permalink: /project/microphone-project
+collection: projects
+order_number: 10
 header: 
 og_image: "research/thumbnail-audio.png"
+category: "PhD"
+
 # date: 2021-05-12
 
 ---
-## Wireless Earphone-based Real-Time Monitoring of Breathing Exercises: A Deep Learning Approach
 
 This paper proposes using commodity earphones for real-time breathing channel and phase detection for breathing therapy compliance monitoring.
 

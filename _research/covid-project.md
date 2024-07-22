@@ -4,7 +4,7 @@ short_title: "Human-Robot Interaction"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-covid.png' alt=''>"
 collection: research
-order_number: 10
+order_number: 1
 header: 
 og_image: "research/thumbnail-covid.png"
 # date: 2021-05-12

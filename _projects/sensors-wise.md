@@ -1,20 +1,22 @@
 ---
-title: "Audio Analysis"
-short_title: "Audio Analysis"
+title: "Werable Inertial Sensors for Exergames"
+short_title: "Sensors Wearable Inertial Sensors (WISE)"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-audio.png' alt=''>"
-collection: research
-order_number: 4
+permalink: /project/wise
+collection: projects
+order_number: 10
 header: 
 og_image: "research/thumbnail-audio.png"
+category: "PhD"
+
 # date: 2021-05-12
 
 ---
-## Wireless Earphone-based Real-Time Monitoring of Breathing Exercises: A Deep Learning Approach
 
 This paper proposes using commodity earphones for real-time breathing channel and phase detection for breathing therapy compliance monitoring.
 
-**Authors:** [Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), [Zaid Waghoo](https://www.linkedin.com/in/zaid-waghoo/) and [Vikram Kapila](https://scholar.google.com/citations?user=6PTJF28AAAAJ&hl=en)
+**Authors:** [Ashwin Raj Kumar](https://scholar.google.com/citations?user=FJXcZW0AAAAJ&hl=en), [Fabio Vulpi](https://scholar.google.com/citations?user=2iP46TMAAAAJ&hl=en), [Satish Reddy Bethi](https://scholar.google.com/citations?user=QdEyUtEAAAAJ&hl=en), [Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao), [Preeti Raghavan](https://scholar.google.com/citations?user=wPT5vXAAAAAJ&hl=en&oi=ao), and [Vikram Kapila](https://scholar.google.com/citations?user=6PTJF28AAAAJ&hl=en)
 
 **Abstract**
 
