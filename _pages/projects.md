@@ -6,45 +6,53 @@ author_profile: true
 ---
 
 ---
-## PhD Projects:
+## PhD Projects
 
 <div class="project-container">
   <div class="project-item">
     <a href="/project/rom-dva">
-      <img src="/images/research/thumbnail-audio.png" alt="Project 1 Image" class="project-image">
+      <img src="/images/research/thumbnail-dva.png" alt="DVA project" class="project-image">
     </a>
     <div class="project-text">
-      <h3>Range of Motion Assessment using a Digital Voice Assisstant</h3>
-      <p>Designed and built a minimalistic puppeteering robot that can convey human emotions. The robot was featured in the theatrical production “Rescate” at the La Moneda Cultural Center, Chile.</p>
+      <a href="/project/rom-dva">
+        <h3>Range of Motion Assessment using a Digital Voice Assistant</h3>
+      </a>
+      <p>Utilized digital voice assistant devices for range of motion assessment and evaluated their feasibility for at-home therapy compliance among the elderly.</p>
     </div>
   </div>
 
   <div class="project-item">
     <a href="/project/audio-analysis">
-      <img src="/images/research/thumbnail-audio.png" alt="Project 2 Image" class="project-image">
+      <img src="/images/research/thumbnail-audio.gif" alt="Earbuds Project" class="project-image">
     </a>
     <div class="project-text">
+    <a href="/project/audio-analysis">
       <h3>Wireless Earphone-based Real-Time Monitoring of Breathing Exercises: A Deep Learning Approach</h3>
-      <p>Wearable inertial sensor modules capable of capturing human upper extremity range of motion for stroke rehabilitation.</p>
+    </a>
+      <p>A system for tracking breathing exercises that can detect nasal and oral breathing, as well as distinguish between inhaling and exhaling. This system can be used for at-home therapy compliance to prevent lymphedema.</p>
     </div>
   </div>
 
   <div class="project-item">
     <a href="/project/wise">
-      <img src="/images/research/thumbnail-audio.png" alt="Project 3 Image" class="project-image">
+      <img src="/images/research/thumbnail-wise.png" alt="Project 3 Image" class="project-image">
     </a>
     <div class="project-text">
-      <h3>Wearable Inertial Sensors for exergames (WISE)</h3>
+      <a href="/project/wise">
+        <h3>Wearable Inertial Sensors for exergames (WISE)</h3>
+      </a>
       <p>Wearable inertial sensor modules capable of capturing human upper extremity range of motion for stroke rehabilitation.</p>
     </div>
   </div>
 
   <div class="project-item">
     <a href="/project/microphone-project">
-      <img src="/images/research/thumbnail-audio.png" alt="Project 1 Image" class="project-image">
+      <img src="/images/research/thumbnail-placeholder.png" alt="Project 1 Image" class="project-image">
     </a>
     <div class="project-text">
-      <h3>A minimalistic puppeteering robot that can convey human emotions</h3>
+      <a href="/project/microphone-project">
+        <h3>A minimalistic puppeteering robot that can convey human emotions</h3>
+      </a>
       <p>Designed and built a minimalistic puppeteering robot that can convey human emotions. The robot was featured in the theatrical production “Rescate” at the La Moneda Cultural Center, Chile.</p>
     </div>
   </div>
@@ -53,12 +61,12 @@ author_profile: true
 </div>
 
 ---
-## Masters Projects:
+## Masters Projects
 
 <div class="project-container">
   <div class="project-item">
     <a href="link_to_project_page_1">
-      <img src="/images/research/thumbnail-audio.png" alt="Project 41 Image" class="project-image">
+      <img src="/images/research/thumbnail-placeholder.png" alt="Project 41 Image" class="project-image">
     </a>
     <div class="project-text">
       <h3>Project Title 1</h3>
@@ -69,7 +77,7 @@ author_profile: true
 
   <div class="project-item">
     <a href="link_to_project_page_2">
-      <img src="/images/research/thumbnail-audio.png" alt="Project 5 Image" class="project-image">
+      <img src="/images/research/thumbnail-placeholder.png" alt="Project 5 Image" class="project-image">
     </a>
     <div class="project-text">
       <h3>Project Title 2</h3>
@@ -80,12 +88,12 @@ author_profile: true
 </div>
 
 ---
-## Undergraduate Projects:
+## Undergraduate Projects
 
 <div class="project-container">
   <div class="project-item">
     <a href="link_to_project_page_1">
-      <img src="/images/research/thumbnail-audio.png" alt="Project 6 Image" class="project-image">
+      <img src="/images/research/thumbnail-placeholder.png" alt="Project 6 Image" class="project-image">
     </a>
     <div class="project-text">
       <h3>Project Title 1</h3>
@@ -96,7 +104,7 @@ author_profile: true
 
   <div class="project-item">
     <a href="link_to_project_page_2">
-      <img src="/images/research/thumbnail-audio.png" alt="Project 7 Image" class="project-image">
+      <img src="/images/research/thumbnail-placeholder.png" alt="Project 7 Image" class="project-image">
     </a>
     <div class="project-text">
       <h3>Project Title 2</h3>
