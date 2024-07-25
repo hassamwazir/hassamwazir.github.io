@@ -20,10 +20,10 @@ We were tasked with designing and building a minimalistic puppeteering robot tha
 The design requirements were to build a robot that was shaped like a microphone stand and through its movements could convey human emotions. The robot was designed to be controlled by a human operator who would be able to control the robot's movements in real-time using a smartphone. The robot was built using 3D printed parts and Dynamixel servos. For the control system, a Raspberry Pi was used to communicate with the Dynamixel servos and a Unity application was developed to control the robot's movements.
 
 <iframe
-  width="320"
-  height="240"
-  src="https://www.youtube.com/watch?v=X3xGDrRx9pg"
-  frameborder="0"
+  width="160"
+  height="120"
+  src="https://www.youtube.com/embed/X3xGDrRx9pg"
+  frameborder="1"
   allow="autoplay; encrypted-media"
   allowfullscreen
 >
