@@ -27,4 +27,4 @@ This paper proposes using commodity earphones for real-time breathing channel an
 
 **Tech:** Python, PyTorch, Audacity
 
-[Article](){: .btn--research} [Preprint](/files/pdf/research/lymph-brom-preprint.pdf){: .btn--research}
+[Article](https://arxiv.org/abs/2404.10310){: .btn--research} [Preprint](/files/pdf/research/lymph-brom-preprint.pdf){: .btn--research}
