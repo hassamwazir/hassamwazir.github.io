@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ---
-## PhD Projects
+<!-- ## PhD Projects -->
 
 <div class="project-container">
   <div class="project-item">
@@ -46,11 +46,11 @@ author_profile: true
   </div>
 
   <div class="project-item">
-    <a href="/project/microphone-project">
-      <img src="/images/research/thumbnail-placeholder.png" alt="Project 1 Image" class="project-image">
+    <a href="/project/speaker-project">
+      <img src="/images/research/thumbnail-speaker-project.png" alt="Project 1 Image" class="project-image">
     </a>
     <div class="project-text">
-      <a href="/project/microphone-project">
+      <a href="/project/speaker-project">
         <h3>A minimalistic puppeteering robot that can convey human emotions</h3>
       </a>
       <p>Designed and built a minimalistic puppeteering robot that can convey human emotions. The robot was featured in the theatrical production “Rescate” at the La Moneda Cultural Center, Chile.</p>
@@ -60,10 +60,10 @@ author_profile: true
   
 </div>
 
----
-## Masters Projects
+<!-- --- -->
+<!-- ## Masters Projects -->
 
-<div class="project-container">
+<!-- <div class="project-container">
   <div class="project-item">
     <a href="link_to_project_page_1">
       <img src="/images/research/thumbnail-placeholder.png" alt="Project 41 Image" class="project-image">
@@ -84,13 +84,12 @@ author_profile: true
       <p>Short description of project 2. This project involves...</p>
     </div>
   </div>
-  <!-- Add more project items as needed -->
-</div>
+</div> -->
 
----
-## Undergraduate Projects
+<!-- --- -->
+<!-- ## Undergraduate Projects -->
 
-<div class="project-container">
+<!-- <div class="project-container">
   <div class="project-item">
     <a href="link_to_project_page_1">
       <img src="/images/research/thumbnail-placeholder.png" alt="Project 6 Image" class="project-image">
@@ -111,8 +110,7 @@ author_profile: true
       <p>Short description of project 2. This project involves...</p>
     </div>
   </div>
-  <!-- Add more project items as needed -->
-</div>
+</div> -->
 
 <style>
   .project-container {
