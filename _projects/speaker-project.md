@@ -48,8 +48,6 @@ og_image: "research/thumbnail-audio.png"
 }
 </style>
 
-We were tasked with designing and building a minimalistic puppeteering robot that can convey human emotions. The robot was featured in the theatrical production “Rescate” at the La Moneda Cultural Center, Chile.
-
 **Authors:** [Hassam Khan Wazir](https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en&oi=ao) and [Alejandro Moreno](https://filmfreeway.com/AlejandroMorenoJashes)
 
 The design requirements for this project were to build a robot that was shaped like a microphone stand and through its movements could convey human emotions. The robot was designed to be controlled by a human operator who would be able to control the robot's movements in real-time using a smartphone. The robot was built using 3D printed parts and Dynamixel servos. For the control system, a Raspberry Pi was used to communicate with the Dynamixel servos and a Unity application was developed to control the robot's movements.
