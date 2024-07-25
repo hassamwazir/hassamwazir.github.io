@@ -10,11 +10,11 @@ author_profile: true
 
 <div class="project-container">
   <div class="project-item">
-    <a href="/project/rom-dva">
+    <a href="/projects/rom-dva">
       <img src="/images/research/thumbnail-dva.png" alt="DVA project" class="project-image">
     </a>
     <div class="project-text">
-      <a href="/project/rom-dva">
+      <a href="/projects/rom-dva">
         <h3>Range of Motion Assessment using a Digital Voice Assistant</h3>
       </a>
       <p>Utilized digital voice assistant devices for range of motion assessment and evaluated their feasibility for at-home therapy compliance among the elderly.</p>
@@ -22,11 +22,11 @@ author_profile: true
   </div>
 
   <div class="project-item">
-    <a href="/project/audio-analysis">
+    <a href="/projects/audio-analysis">
       <img src="/images/research/thumbnail-audio.gif" alt="Earbuds Project" class="project-image">
     </a>
     <div class="project-text">
-    <a href="/project/audio-analysis">
+    <a href="/projects/audio-analysis">
       <h3>Wireless Earphone-based Real-Time Monitoring of Breathing Exercises: A Deep Learning Approach</h3>
     </a>
       <p>A system for tracking breathing exercises that can detect nasal and oral breathing, as well as distinguish between inhaling and exhaling. This system can be used for at-home therapy compliance to prevent lymphedema.</p>
@@ -34,11 +34,11 @@ author_profile: true
   </div>
 
   <div class="project-item">
-    <a href="/project/wise">
+    <a href="/projects/wise">
       <img src="/images/research/thumbnail-wise.png" alt="Project 3 Image" class="project-image">
     </a>
     <div class="project-text">
-      <a href="/project/wise">
+      <a href="/projects/wise">
         <h3>Wearable Inertial Sensors for exergames (WISE)</h3>
       </a>
       <p>Wearable inertial sensor modules capable of capturing human upper extremity range of motion for stroke rehabilitation.</p>
@@ -46,11 +46,11 @@ author_profile: true
   </div>
 
   <div class="project-item">
-    <a href="/project/speaker-project">
+    <a href="/projects/speaker-project">
       <img src="/images/research/thumbnail-speaker-project.png" alt="Project 1 Image" class="project-image">
     </a>
     <div class="project-text">
-      <a href="/project/speaker-project">
+      <a href="/projects/speaker-project">
         <h3>A minimalistic puppeteering robot that can convey human emotions</h3>
       </a>
       <p>Designed and built a minimalistic puppeteering robot that can convey human emotions. The robot was featured in the theatrical production “Rescate” at the La Moneda Cultural Center, Chile.</p>

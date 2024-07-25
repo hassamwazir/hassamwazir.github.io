@@ -3,7 +3,7 @@ title: "Wireless Earphone-based Real-Time Monitoring of Breathing Exercises: A D
 short_title: "EMBC2024 Audio Analysis Paper"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-audio.png' alt=''>"
-permalink: /project/audio-analysis
+permalink: /projects/audio-analysis
 collection: projects
 order_number: 10
 header: 

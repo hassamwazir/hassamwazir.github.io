@@ -3,7 +3,7 @@ title: "Range of Motion Assessment using a Digital Voice Assistant"
 short_title: "EMBC2024 Audio Analysis Paper"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-audio.png' alt=''>"
-permalink: /project/rom-dva
+permalink: /projects/rom-dva
 collection: projects
 order_number: 10
 header: 

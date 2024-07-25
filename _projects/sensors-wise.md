@@ -3,7 +3,7 @@ title: "Werable Inertial Sensors for Exergames"
 short_title: "Sensors Wearable Inertial Sensors (WISE)"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-audio.png' alt=''>"
-permalink: /project/wise
+permalink: /projects/wise
 collection: projects
 order_number: 10
 header: 

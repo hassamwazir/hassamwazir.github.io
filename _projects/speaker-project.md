@@ -3,7 +3,7 @@ title: "A minimalistic puppeteering robot that can convey human emotions"
 short_title: "A minimalistic puppeteering robot that can convey human emotions"
 layout: single-portfolio
 excerpt: "<img src='/images/research/thumbnail-audio.png' alt=''>"
-permalink: /project/microphone-project
+permalink: /projects/speaker-project
 collection: projects
 order_number: 10
 header: 
@@ -44,7 +44,7 @@ og_image: "research/thumbnail-audio.png"
 .caption {
   margin-top: 10px;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
 }
 </style>
 
