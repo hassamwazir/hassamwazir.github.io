@@ -26,4 +26,4 @@ This paper proposes using commodity earphones for real-time breathing channel an
 
 **Tech:** MATLAB, C++, Arduino IDE
 
-[Article](https://ieeexplore.ieee.org/abstract/document/8935386){: .btn--research} [Preprint](/files/pdf/research/WISE-preprint.pdf){: .btn--research}
+[Article](https://ieeexplore.ieee.org/abstract/document/8935386){: .btn--research} [Preprint](/files/pdf/research/wise-preprint.pdf){: .btn--research}

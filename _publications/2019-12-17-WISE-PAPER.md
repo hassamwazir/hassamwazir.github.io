@@ -5,7 +5,7 @@ type: "Journal"
 permalink: /publication/2019-12-17-WISE-PAPER
 date: 2019-12-17
 venue: 'IEEE Sensors Journal'
-paperurl: '/files/pdf/research/WISE-preprint.pdf'
+paperurl: '/files/pdf/research/wise-preprint.pdf'
 link: 'https://ieeexplore.ieee.org/abstract/document/8935386'
 github: 'https://github.com/hassamwazir/WISE'
 # code:
