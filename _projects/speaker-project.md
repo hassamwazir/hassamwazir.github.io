@@ -17,7 +17,7 @@ og_image: "research/thumbnail-audio.png"
 .video-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px; /* Increased gap to accommodate caption spacing */
+  gap: 10px;
 }
 
 .video-item, .image-item {
@@ -26,19 +26,35 @@ og_image: "research/thumbnail-audio.png"
   align-items: center;
 }
 
-.video-item .video-wrapper, .image-item .image-wrapper {
+.video-wrapper {
   position: relative;
   width: 100%;
-  padding-bottom: 100%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio for videos */
   height: 0;
 }
 
-.video-item .video-wrapper iframe, .image-item .image-wrapper img {
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* Square aspect ratio for images */
+  height: 0;
+}
+
+.video-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.image-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container without distortion */
 }
 
 .caption {
@@ -55,6 +71,8 @@ The design requirements for this project were to build a robot that was shaped l
 
 
 As an additional feature, the user could physically move the robot and the sequence of movements could be recorded and played back. A total of ten movements could be recorded. Since the robot was designed to be used in a theatrical production, the user interface was designed to be simple and intuitive.
+
+Here are some videos of the initial testing of the robot:
 
 <div class="video-grid">
   <div class="video-item">
@@ -108,7 +126,7 @@ The robot was featured in the theatrical production [“Rescate”](https://www.
 
 <div class="video-grid">
   <div class="image-item">
-    <div class="image-wrapper">
+    <div class="image-wrapper" style="height: 150px;">
       <img
         src="/files/images/projects/speaker-project/project-parts.png"
         alt="The 3D printed parts of the robot."
@@ -117,7 +135,7 @@ The robot was featured in the theatrical production [“Rescate”](https://www.
     <p class="caption">The 3D printed parts of the robot</p>
   </div>
   <div class="image-item">
-    <div class="image-wrapper">
+    <div class="image-wrapper" style="height: 150px;">
       <img
         src="/files/images/projects/speaker-project/setting-up.png"
         alt="Setting up the robot for the theatrical production."
