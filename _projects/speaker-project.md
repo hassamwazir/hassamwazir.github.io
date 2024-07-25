@@ -110,7 +110,7 @@ The robot was featured in the theatrical production [“Rescate”](https://www.
   <div class="image-item">
     <div class="image-wrapper">
       <img
-        src="/files/images/projects/speaker-project/project-parts.jpg"
+        src="/files/images/projects/speaker-project/project-parts.png"
         alt="The 3D printed parts of the robot."
       />
     </div>
@@ -119,7 +119,7 @@ The robot was featured in the theatrical production [“Rescate”](https://www.
   <div class="image-item">
     <div class="image-wrapper">
       <img
-        src="/files/images/projects/speaker-project/setting-up.jpg"
+        src="/files/images/projects/speaker-project/setting-up.png"
         alt="Setting up the robot for the theatrical production."
       />
     </div>
