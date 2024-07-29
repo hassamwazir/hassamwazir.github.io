@@ -8,7 +8,6 @@ categories: tutorial
 ---
 
 This is a guide for logging into the NYU HPC cluster and streamlining that process.
-<!--more-->
 
 - The usual way to access the NYU Greene HPC cluster is via SSH. This information is taken from the official [NYU HPC website](https://sites.google.com/nyu.edu/nyu-hpc/hpc-systems/greene/getting-started?authuser=0#h.niitlb309yhv).
 
