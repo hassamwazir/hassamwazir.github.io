@@ -13,8 +13,6 @@ As an additional feature, the user could physically move the robot and the seque
 
 Here are some videos of the initial testing of the robot:
 
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/f8IKgpQYCJo" title="Routine1 Record" class="embed-responsive-item" width="384" height="216" caption="Routine 1 recording" %}
@@ -51,6 +49,6 @@ The robot was featured in the theatrical production [“Rescate”](https://www.
     </div>
 </div>
 
-*(Python programming, Android Application development, Wireless communication, 3D Printing)*
+_(Python programming, Android Application development, Wireless communication, 3D Printing)_
 
 **Tech**: Python, Unity, Solidworks, Dynamixel SDK, Raspberry Pi
