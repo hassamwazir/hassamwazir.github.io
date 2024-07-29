@@ -1,37 +1,21 @@
 ---
-layout: archive
-title: "Publications"
+layout: page
 permalink: /publications/
-author_profile: true
+title: Publications
+description:
+nav: true
+nav_order: 2
 ---
 
-Here is a list of my academic publications. You can also find my articles on my <a href="https://scholar.google.com/citations?user=hBetThYAAAAJ&hl=en">Google Scholar profile</a>.
+A list of my publications and preprints. You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=hBetThYAAAAJ) and [ResearchGate](https://www.researchgate.net/profile/Hassam-Wazir).
+<!-- _pages/publications.md -->
 
----
-{% include base_path %}
+<!-- Bibsearch Feature -->
 
-## Journal Articles
-{% for post in site.publications reversed %}
-  {% if post.type == "Journal" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+{% include bib_search.liquid %}
 
----
+<div class="publications">
 
-## Conference Papers
-{% for post in site.publications reversed %}
-  {% if post.type == "Conference Paper" %}
-    {% include archive-single.html %}
-    
-  {% endif %}
-{% endfor %}
+{% bibliography %}
 
----
-
-## Patents
-{% for post in site.publications reversed %}
-  {% if post.type == "Patent" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+</div>

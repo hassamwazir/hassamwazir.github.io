@@ -1,12 +1,10 @@
 ---
-title: 'NYU HPC Setup'
-date: 2023-12-21
-permalink: /posts/2023/12/NYU-HPC-SETUP/
-excerpt_separator: <!--more-->
-toc: true
-tags:
-  - hpc
-  - nyu
+layout: post
+title: NYU HPC Setup
+date: 2023-12-21 16:40:16
+description: A guide for logging into the NYU HPC cluster and streamlining that process.
+tags: nyu hpc
+categories: tutorial
 ---
 
 This is a guide for logging into the NYU HPC cluster and streamlining that process.
