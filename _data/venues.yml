@@ -1,9 +1,10 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"IEEE EMBC":
+  url: https://www.embs.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IEEE Sensors":
+  url: https://ieee-sensors.org/ieee-sensors-journal/
 
-"Vision":
+"Frontiers":
+  url: https://www.frontiersin.org/
   color: "#009f36"

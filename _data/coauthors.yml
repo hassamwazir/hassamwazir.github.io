@@ -1,34 +1,43 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"kapila":
+  - firstname: ["Vikram", "V."]
+    url: https://scholar.google.com/citations?user=6PTJF28AAAAJ&hl=en
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"rajkumar":
+  - firstname: ["Ashwin", "A."]
+    url: https://scholar.google.com/citations?user=FJXcZW0AAAAJ&hl=en
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"bethi":
+  - firstname: ["Satish Reddy", "S. R."]
+    url: https://scholar.google.com/citations?user=QdEyUtEAAAAJ&hl=en
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"waghoo":
+  - firstname: ["Zaid", "Z."]
+    url: https://www.linkedin.com/in/zaid-waghoo/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"gaikwad":
+  - firstname: ["Kshitij", "K."]
+    url: https://kshitijgaikwad.com/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"pawar":
+  - firstname: ["Manthan", "M."]
+    url: https://www.linkedin.com/in/m-v-pawar/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"vulpi":
+  - firstname: ["Fabio", "F."]
+    url: https://scholar.google.com/citations?user=2iP46TMAAAAJ&hl=en
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"karuso":
+  - firstname: ["Fabio", "F."]
+    url: https://scholar.google.com/citations?user=iPbmhhkAAAAJ&hl=en
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"raghavan":
+  - firstname: ["Preeti"]
+    url: https://scholar.google.com/citations?user=wPT5vXAAAAAJ&hl=en
+
+"lourido":
+  - firstname: ["Christian", "C."]
+    url: https://scholar.google.com/citations?user=gdHZ9ygAAAAJ&hl=en
+
+"chacko":
+  - firstname: ["Sonia Mary", "S. M."]
+    url: https://scholar.google.com/citations?user=AphxHkcAAAAJ&hl=en

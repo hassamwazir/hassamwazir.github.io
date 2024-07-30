@@ -1,15 +1,13 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: These are the courses I have taught over the years.
 nav: true
 nav_order: 6
 ---
 
 ## New York University
-
----
 
 - **Instructor**
   - ME-UY 3411: Automatic Controls Laboratory (Spring 2024)
