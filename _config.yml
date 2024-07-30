@@ -304,7 +304,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["tutorial", "project"] # these tags will be displayed on the front page of your blog
-display_categories: ["external"] # these categories will be displayed on the front page of your blog
+display_categories: ["post"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
