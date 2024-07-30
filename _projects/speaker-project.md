@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A minimalistic puppeteering robot
-description: A minimalistic puppeteering robot that can convey human emotions
+description: "A minimalistic puppeteering robot that can convey human emotions. The robot was featured in the theatrical production <b><i>Rescate</i></b> at the La Moneda Cultural Center, Chile."
 img: /assets/img/projects/speaker-project/thumbnail-speaker-project.png
 importance: 10
 category: work
@@ -41,7 +41,7 @@ The robot motion could also be controlled manually via the mobile application:
 The robot was featured in the theatrical production [“Rescate”](https://www.cclm.cl/actividades/rescate/) at the La Moneda Cultural Center, Chile.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/speaker-project/project-parts.png" title="project parts" class="img-fluid rounded z-depth-1" caption="The 3D printed parts of the robot" %}
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
