@@ -1,10 +1,13 @@
 ---
 layout: post
 title: The z-domain transfer function and the Bilinear transformation.
-date: 2020-02-23 16:40:16
+date: 2020-02-23 18:40:16
 description: Understanding the z-domain transfer function and the bilinear transformation.
 tags: controls
 categories: post
+toc:
+  sidebar: left
+
 ---
 
 ## Understanding maping
@@ -14,7 +17,7 @@ The concept of mapping is used to transform one domain into another. It can be t
 This warping of the space is non-linear and the Bilinear transformation is used to account for this non-linearity.
 
 ---
-## Bilinear transformation of a transfer function from the s-domain to the z-domain
+## Bilinear transformation from the s-domain to the z-domain
 
 Assume we have a first-order system with a transfer function of the form:
 
