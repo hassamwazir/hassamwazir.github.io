@@ -10,6 +10,8 @@ toc:
 
 ---
 
+[In the previous post](/blog/2020/controls-system-config/), we discussed the configuration of control systems. In this post, we will discuss the common types of controllers used in classical control systems.
+
 ## Controllers
 
 Every plant has certain characteristics and will behave a certain way when provided a unit step input. For example, the plant,
