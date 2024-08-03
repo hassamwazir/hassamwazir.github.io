@@ -45,10 +45,13 @@ The current approach to navigation is that $$r_0$$ is given distinct waypoints t
 Here are a couple of videos of the simulation:
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center align-items-center">
         {% include video.liquid path="https://www.youtube.com/embed/Zk8ADZcr7r4" title="Swarm Simulation" class="embed-responsive-item" width="384" height="216" caption="Swarm Simulation" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/3_jWA_7177U" title="Routine1 Playback" class="embed-responsive-item" width="384" height="216" caption="Swarm Simulation (10x)" %}
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center align-items-center">
+        {% include video.liquid path="https://www.youtube.com/embed/3_jWA_7177U" title="Swarm Simulation (10x)" class="embed-responsive-item" width="384" height="216" caption="Swarm Simulation (10x)" %}
     </div>
 </div>
