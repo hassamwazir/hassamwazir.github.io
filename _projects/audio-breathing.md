@@ -15,6 +15,6 @@ related_publications: false
 > 97.99% and 89.46%, respectively. The results demonstrate the potential of using commodity earphones for real-time breathing channel and phase detection for breathing therapy compliance monitoring.
 > Clinical relevance — This paper introduces a real-time monitoring system for breathing that can facilitate therapy compliance for several breathing-based exercises.
 
-_(Python programming, Audio analysis, Deep learning, Convolutional Neural Network, Data acquisition, processing, and visualization)_
+*(Python programming, Audio analysis, Deep learning, Convolutional Neural Network, Data acquisition, processing, and visualization)*
 
 **Tech**: Python, PyTorch, Audacity
