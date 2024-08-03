@@ -304,3 +304,5 @@ $$
 $$
 
 **Note:** The 0.02 in -$$\ln{(0.02)}$$ refers to the 2% settling time. If you want to consider 1% settling time, just change the value to 0.01.
+
+In the [next post](/blog/2020/controls-controllers/), we will discuss the different types of controllers and their effects on the system response.
