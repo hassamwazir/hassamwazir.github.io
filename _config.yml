@@ -132,7 +132,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: My Blog # blog_name will be displayed in your blog page
-blog_description: This is my blog where I write about my research, projects, and tutorials.
+blog_description: Here, I write about my research, projects, tutorials, and things that I find interesting.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
