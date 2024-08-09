@@ -7,7 +7,7 @@ importance: 10
 category: work
 ---
 
-The design requirements for this project were to build a robot that was shaped like a microphone stand and through its movements could convey human emotions. The robot was designed to be controlled by a human operator who would be able to control the robot’s movements in real-time using a smartphone. The robot was built using 3D printed parts and Dynamixel servos. For the control system, a Raspberry Pi was used to communicate with the Dynamixel servos and a Unity application was developed to control the robot’s movements.
+The design requirements for this project were to build a robot that was shaped like a microphone stand and through its movements could convey human emotions. The robot was designed to be controlled by a human operator who would be able to control the robot’s movements in real time using a smartphone. The robot was built using 3D-printed parts and Dynamixel servos. For the control system, a Raspberry Pi was used to communicate with the Dynamixel servos, and a Unity application was developed to control the robot’s movements.
 
 As an additional feature, the user could physically move the robot and the sequence of movements could be recorded and played back. A total of ten movements could be recorded. Since the robot was designed to be used in a theatrical production, the user interface was designed to be simple and intuitive.
 
@@ -30,7 +30,7 @@ Here are some videos of the initial testing of the robot:
     </div>
 </div>
 
-The robot motion could also be controlled manually via the mobile application:
+The robot's motion could also be controlled manually via the mobile application:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
