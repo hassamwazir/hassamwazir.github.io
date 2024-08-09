@@ -41,7 +41,7 @@ To estimate the joint coordinates, we use the [MediaPipe library](https://ai.goo
 \end{equation}
 
 
-alculation step: We now determine the shoulder and elbow angles corresponding to various ROM exercises. We begin by noting that for two arbitrary vectors $$\tilde{v}_i = \hat{y}_i − \hat{x}_i, i = 1, 2$$, the point of projection $$\hat{p}$$ of the vector $$\tilde{v}_2$$ on the vector $$\tilde{v}_1$$ is given by
+**Calculation step**: We now determine the shoulder and elbow angles corresponding to various ROM exercises. We begin by noting that for two arbitrary vectors $$\tilde{v}_i = \hat{y}_i − \hat{x}_i, i = 1, 2$$, the point of projection $$\hat{p}$$ of the vector $$\tilde{v}_2$$ on the vector $$\tilde{v}_1$$ is given by
 
 \begin{equation}
     \label{eqn:eq_proj}
