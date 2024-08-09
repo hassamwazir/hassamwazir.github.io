@@ -10,7 +10,7 @@ toc:
 
 ---
 
-## Understanding maping
+## Understanding mapping
 
 The concept of mapping is used to transform one domain into another. It can be thought of as a value living in one space being transformed into another space. For example, the mapping of a point in the Cartesian plane to a point in the polar plane is a transformation from one space to another. In the context of control systems, the mapping of a transfer function from the `s-domain` to the `z-domain` is a transformation from the continuous-time domain to the discrete-time domain.
 
@@ -32,12 +32,12 @@ Then, the time period $$T$$ is given by:
     T = \frac{1}{f_s} = \frac{1}{1000} = 0.001
 \end{equation}
 
-The transfer functio is given as follows:
+The transfer function is given as follows:
 \begin{equation}
     H(j\omega) = \frac{\omega_c}{s + \omega_c}
 \end{equation}
 
-The transformation from s-domain to the z-domain is non-linear. To account for this non-linearity, the cut-off frequency is prewarped and the resulting frequency is denoted by $$\omega_p$$.
+The transformation from s-domain to the z-domain is non-linear. To account for this non-linearity, the cut-off frequency is pre-warped and the resulting frequency is denoted by $$\omega_p$$.
 
 \begin{equation}
     \omega_p = \frac{2}{T} \tan\left(\frac{\omega_c T}{2}\right)
@@ -47,7 +47,7 @@ $$
     \omega_p = 62.853\, \text{rad/s}
 $$
 
-Once the frequency has been prewarped, the system can undergo Bilinear transformation using the relationship between $$s$$ and $$z$$.
+Once the frequency has been pre-warped, the system can undergo Bilinear transformation using the relationship between $$s$$ and $$z$$.
 
 $$
 H(z) = \frac{\omega_p}{s + \omega_p} \bigg|_{s = \frac{2}{T} \frac{z-1}{z+1}}
