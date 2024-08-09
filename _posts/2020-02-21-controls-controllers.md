@@ -28,14 +28,14 @@ If, instead, we want to have a steady state value of $$1$$ for the same unit ste
 <p align="center">
     <img src="/assets/img/posts/2020-02-21-controls-controllers/controller.png" alt="Controller and plant in open-loop configuration." width="600px">
     <br>
-    <em>Figure 1: Controller and plant in open-loop configuration.</em>
+    <em>Figure 1: Controller and plant in an open-loop configuration.</em>
 </p>
 
 To change the system in Equation \ref{eqn:example_eq}, so that the output is $$1$$ when input is a unit step function, we can multiply the plant with $$2$$. The controller, therefore, is just a constant gain of value $$2$$. This type of controller is called a "Proportional controller", and is the simplest type of controller that can be used.
 
 ### Proportional $$(P)$$ controller
 
-As mentioned before, $$P$$ controller is the simplest type of controller that can be used. The output of a Proportional controller is proportional to the input to the controller. It is just a gain (can be positive or negative and can be a fraction) that is multiplied to the plant to modify its system response. A real-world example would be the use of an amplifier to amplify the sound from a speaker by a fixed amount. Figure 2 shows the output of the system in Equation \ref{eqn:example_eq} in open-loop configuration. The steady state value is $$0.5$$ as expected.
+As mentioned before, $$P$$ controller is the simplest type of controller that can be used. The output of a Proportional controller is proportional to the input of the controller. It is just a gain (can be positive or negative and can be a fraction) that is multiplied by the plant to modify its system response. A real-world example would be the use of an amplifier to amplify the sound from a speaker by a fixed amount. Figure 2 shows the output of the system in Equation \ref{eqn:example_eq} in open-loop configuration. The steady state value is $$0.5$$ as expected.
 
 <p align="center">
     <img src="/assets/img/posts/2020-02-21-controls-controllers/withoutController.PNG" alt="Unit step response of the system." width="400px">
@@ -43,7 +43,7 @@ As mentioned before, $$P$$ controller is the simplest type of controller that ca
     <em>Figure 2: Unit step response of the system.</em>
 </p>
 
-However, when a Proportional controller with gain $$2$$ is used, the steady state values changes to $$1$$, as shown in Figure 3.
+However, when a Proportional controller with a gain of $$2$$ is used, the steady state value changes to $$1$$, as shown in Figure 3.
 
 <p align="center">
     <img src="/assets/img/posts/2020-02-21-controls-controllers/withController.PNG" alt="Unit step response of the system with Proportional controller." width="400px">
@@ -87,7 +87,7 @@ The closed-loop unit step response is shown in Figure 5.
     <em>Figure 5: The closed-loop unit step response of the system.</em>
 </p>
 
-As you can see, the system reaches a steady state around $$6$$s. But what if you want the system to reach steady state at or less than $$2$$s? And the maximum overshoot you can tolerate is $$5\%$$? These are called system requirements and are chosen by you, or are given to you by someone who wants you to design the controller. Let's design a PI controller that will give us the desired performance.
+As you can see, the system reaches a steady state around $$6$$s. But what if you want the system to reach a steady state at or less than $$2$$s? And the maximum overshoot you can tolerate is $$5\%$$? These are called system requirements and are chosen by you, or are given to you by someone who wants you to design the controller. Let's design a PI controller that will give us the desired performance.
 
 The system requirements are,
 
@@ -231,7 +231,7 @@ I = 7.144
 $$
 {% endraw %}
 
-Putting these values of $$P$$ and $$I$$ in the transfer function, we get the following unit step response,
+Putting these values of $$P$$ and $$I$$ in the transfer function, we get the following unit-step response,
 
 <p align="center">
     <img src="/assets/img/posts/2020-02-21-controls-controllers/PIgainsWrong.PNG" alt="Incorrect result after using the calculated PI gains." width="600px">
@@ -261,7 +261,7 @@ The calculation of a third-order system follows in a similar way as a second-ord
 
 ### Calculating the PID gains
 
-The block diagram shown in Figure 11 can be reduced in a similar way as shown for the PI controller, but with three variables i.e., $$P$$, $$I$$, and $$D$$ gains. If the plant is a second-order system (as shown in Figure 11), then the overall transfer function will result in a third-order system. Since we only know how to solve for a second-order system, we do a little trick. The transfer function of Figure 11 is shown below:
+The block diagram shown in Figure 11 can be reduced similarly as shown for the PI controller but with three variables i.e., $$P$$, $$I$$, and $$D$$ gains. If the plant is a second-order system (as shown in Figure 11), then the overall transfer function will result in a third-order system. Since we only know how to solve for a second-order system, we do a little trick. The transfer function of Figure 11 is shown below:
 
 $$
 \frac{Y(s)}{R(s)} = \frac{\frac{Ds^2+Ps+I}{2}}{s^3 + s^2\frac{(1+D)}{2} + s\frac{P}{2} + \frac{I}{2}}
@@ -285,7 +285,7 @@ The system has poles at $$-2$$, $$-5$$, and $$-50$$ and a zero at $$-1$$.
     <em>Figure 12: Root locus of a third-order system with poles at \(-2\), \(-5\), and \(-50\) and a zero at \(-1\).</em>
 </p>
 
-Any third-order system behaves like a second-order system if one of the three poles of the system (order of the system tells how many poles it has) is to the far left of the imaginary axis.
+Any third-order system behaves like a second-order system if one of the three poles of the system (the order of the system tells how many poles it has) is to the far left of the imaginary axis.
 
 In the example shown in Figure 12, the third pole at $$-50$$ is very far to the left of the imaginary axis and therefore, has minimal effect on the system response. The nearer a pole is to the imaginary axis, the more impact it has on the system response.
 
@@ -299,7 +299,7 @@ we can write down the characteristic equation of the third-order system. We can 
 
 $$(s-\alpha)(s^2 + 2\omega_n \zeta s + {\omega_n}^2)$$
 
-where $$\alpha$$ is the pole that we choose. We can choose an arbitrary large negative value such as $$-100$$, or we can choose $$\alpha$$ to be $$-\omega\zeta$$. In either case, we have a third pole that will not affect the system response too much, and will allow us to approximate the third-order system as a second-order system. After this step, the calculation is similar to that of a system with a PI controller.
+where $$\alpha$$ is the pole that we choose. We can choose an arbitrarily large negative value such as $$-100$$, or we can choose $$\alpha$$ to be $$-\omega\zeta$$. In either case, we have a third pole that will not affect the system response too much and will allow us to approximate the third-order system as a second-order system. After this step, the calculation is similar to that of a system with a PI controller.
 
 ### System requirements and calculating the PID gains
 
