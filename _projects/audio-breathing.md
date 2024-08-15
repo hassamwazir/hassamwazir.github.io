@@ -5,8 +5,13 @@ description: This work proposes using commodity earphones for real-time breathin
 img: /assets/img/projects/audio-breathing/thumbnail-audio-breathing.gif
 importance: 1
 category: work
-related_publications: false
+toc:
+  sidebar: left
+pretty_table: true
+related_publications: true
 ---
+
+Publication: {% cite wazir2024audio %}
 
 ## Abstract
 

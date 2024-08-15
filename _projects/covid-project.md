@@ -3,9 +3,15 @@ layout: page
 title: Remote Control of a Dialysis Machine using a Human-Robot Interaction
 description: In this work we propose an emergency, non-invasive remote monitoring and control response system to retrofit dialysis machines with robotic manipulators for safely supporting the treatment of patients with acute kidney disease.
 img: /assets/img/projects/covid/thumbnail-covid-project.png
-importance: 3
+importance: 4
 category: work
+toc:
+  sidebar: left
+pretty_table: true
+related_publications: true
 ---
+
+Publication: {% cite wazir2021covid %}
 
 ## Abstract
 

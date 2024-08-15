@@ -5,7 +5,13 @@ description: This work presents the design and development of wearable inertial 
 img: /assets/img/projects/wise/thumbnail-wise.png
 importance: 4
 category: work
+toc:
+  sidebar: left
+pretty_table: true
+related_publications: true
 ---
+
+Publication: {% cite rajkumar2019wise %}
 
 ## Abstract
 

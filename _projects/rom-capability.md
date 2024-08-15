@@ -5,8 +5,13 @@ description: This work proposes using arm kinematic modeling and capability maps
 img: /assets/img/projects/rom-capability/thumbnail-rom-capability.png
 importance: 2
 category: work
-related_publications: false
+toc:
+  sidebar: left
+pretty_table: true
+related_publications: true
 ---
+
+Publication: {% cite lourido2024cmap %}
 
 ## Abstract
 
