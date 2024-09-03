@@ -7,12 +7,11 @@ importance: 9
 date: 2024-08-28 16:00:16
 category: fun
 toc:
-    - name: Introduction
-    - name: System overview
-    - name: Preparing the robot
-    - name: Using the LLM
-    - name: Results, Limitations, and Future Work
-  sidebar: left
+  - name: Introduction
+  - name: System overview
+  - name: Preparing the robot
+  - name: Using the LLM
+  - name: Results, Limitations, and Future Work
 authors:
   - name: Hassam Khan Wazir
     url: "https://hassamwazir.github.io/"
