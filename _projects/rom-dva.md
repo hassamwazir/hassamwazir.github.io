@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: distill
 title: Range of Motion Assessment using a Digital Voice Assistant
 description: This work proposes using a Digital Voice Assistant for Range of Motion measurement by utilizing 2D pose estimation techniques to estimate 3D limb pose for specific exercises.
 img: /assets/img/projects/rom-dva/thumbnail-rom-dva.png
@@ -74,7 +74,7 @@ Figure. 3 and Table I also show the LOA between the proposed method vs. Kinect. 
 **TABLE I:** Limits of agreement for shoulder (S) and elbow (E) exercises.
 
 | No. | Exercise                              | vs. Synthetic data | vs. Kinect    |
-|-----|---------------------------------------|--------------------|---------------|
+|:---:|:--------------------------------------|:------------------:|:-------------:|
 | 1   | Shoulder abduction-adduction          | ±4.3°              | ±8.8°         |
 | 2   | Shoulder flexion-extension            | ±7.1°              | ±12.6°        |
 | 3   | Shoulder plane angle                  | ±3.3°              | ±12.1°        |
