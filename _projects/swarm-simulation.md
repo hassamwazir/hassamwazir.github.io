@@ -1,12 +1,15 @@
 ---
-layout: page
+layout: distill
 title: Simulating a Swarm of Robots in Gazebo
 description: In this project, I simulated a swarm of robots in Gazebo. The robots were controlled using a decentralized control algorithm that allowed them to move in a formation while avoiding obstacles.
 img: /assets/img/projects/swarm-simulation/thumbnail-swarm-simulation.png
 importance: 9
 category: work
 toc:
-  sidebar: left
+  - name: Introduction
+  - name: Formation
+  - name: Navigation
+
 related_publications: false
 ---
 

@@ -6,7 +6,10 @@ img: /assets/img/projects/rom-dva/thumbnail-rom-dva.png
 importance: 3
 category: work
 toc:
-  sidebar: left
+  - name: Introduction
+  - name: Joint coordinates estimation
+  - name: Results
+  
 pretty_table: true
 related_publications: true
 ---
