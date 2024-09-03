@@ -12,7 +12,7 @@ toc:
     - name: Preparing the robot
     - name: Using the LLM
     - name: Results, Limitations, and Future Work
-#   sidebar: left
+  sidebar: left
 authors:
   - name: Hassam Khan Wazir
     url: "https://hassamwazir.github.io/"
