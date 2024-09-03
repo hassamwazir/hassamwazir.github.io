@@ -15,7 +15,7 @@ This is a guide for logging into the NYU HPC cluster and streamlining that proce
 
     ```
     ssh <netid>@greene.hpc.nyu.edu ## you can skip this step if you  are on the NYU Network or using the NYU VPN
-    ssh <netid>@login.greene.hpc.nyu.edu
+    ssh <netid>@greene.hpc.nyu.edu
     ```
 
     where `<netid>` is your NYU NetID. You will be prompted for your NYU NetID password. Enter it and you will be logged into the login node.
