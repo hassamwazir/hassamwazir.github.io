@@ -1,15 +1,12 @@
 ---
-layout: distill
+layout: page
 title: Range of Motion Assessment using a Digital Voice Assistant
 description: This work proposes using a Digital Voice Assistant for Range of Motion measurement by utilizing 2D pose estimation techniques to estimate 3D limb pose for specific exercises.
 img: /assets/img/projects/rom-dva/thumbnail-rom-dva.png
 importance: 3
 category: work
 toc:
-  - name: Introduction
-  - name: Joint coordinates estimation
-  - name: Results
-  
+  sidebar: left
 pretty_table: true
 related_publications: true
 ---
