@@ -20,7 +20,7 @@ authors:
 related_publications: false
 ---
 
-This work was done in collaboration with [Liyah Coleman](https://colemanliyah.github.io/) at New York University. The code for this project can be found [here](https://github.com/colemanliyah/social-toy-robots).
+This work was done in collaboration with [Liyah Coleman](https://colemanliyah.github.io/) at the Mechatronics, Controls, and Robotics Lab at New York University Tandon School of Engineering. The code for this project can be found [here](https://github.com/colemanliyah/social-toy-robots).
 
 ## Introduction
 
