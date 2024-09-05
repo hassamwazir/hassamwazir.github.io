@@ -13,17 +13,22 @@ related_publications: true
 
 Publication: {% cite wazir2024audio %}
 
+[Download Poster](/assets/img/news/embc24-poster.jpg)
+
 ## Introduciton
 
 As we continue to advance in the realm of digital health, innovative solutions that leverage everyday technology for at-home therapy are becoming increasingly valuable. My latest research focuses on using wireless earphones to monitor breathing exercises in real-time, offering a novel approach to ensuring therapy compliance and improving patient outcomes.
 
-## Understanding the Need for At-Home Monitoring
-
 Breathing exercises are crucial for managing various medical conditions, including hypertension, asthma, and chronic obstructive pulmonary disease (COPD). Regular and accurate performance of these exercises is vital, yet monitoring compliance outside of clinical settings remains a challenge. Traditional monitoring equipment, such as spirometers and capnographs, is typically not available in home environments, leading to gaps in therapy adherence and effectiveness.
+
+<p align="center"> 
+  <img src="/assets/img/projects/audio-breathing/systemOverview.png" alt="System Overview." width="600px"> <br> 
+  <em>Figure 1: The system overview.</em> 
+</p>
 
 ## A New Solution with Everyday Technology
 
-In response to these challenges, I developed a system that utilizes the microphones of wireless earphones to capture and analyze breathing sounds. By employing two convolutional neural networks (CNNs), this system can classify different breathing channels (nasal or oral) and phases (inhale or exhale) in real-time, making it a powerful tool for monitoring therapy compliance at home.
+In response to these challenges, we developed a system that utilizes the microphones of wireless earphones to capture and analyze breathing sounds. By employing two convolutional neural networks (CNNs), this system can classify different breathing channels (nasal or oral) and phases (inhale or exhale) in real-time, making it a powerful tool for monitoring therapy compliance at home.
 
 Here’s how the system works:
 
@@ -34,7 +39,7 @@ Together, these classifiers achieved impressive accuracy, with the channel class
 
 <p align="center"> 
   <img src="/assets/img/projects/audio-breathing/architecture.jpg" alt="System Architecture for Detecting Breathing Patterns." width="600px"> <br> 
-  <em>Figure 1: The system architecture for detecting pause, breathing channels, and breathing phases.</em> 
+  <em>Figure 2: The system architecture for detecting pause, breathing channels, and breathing phases.</em> 
 </p>
 
 ## Creating a Custom Dataset for Improved Accuracy
@@ -44,7 +49,7 @@ To train these neural networks, a new dataset of breathing sounds was created us
 <p align="center"> 
   <img src="/assets/img/projects/audio-breathing/nasalBreathing.png" alt="Audio Spectrogram for Nasal Breathing." width="600px"> <br>
   <img src="/assets/img/projects/audio-breathing/oralBreathing.jpg" alt="Audio Spectrogram for Oral Breathing." width="600px"> <br> 
-  <em>Figure 2: Audio spectrograms for nasal (top) and oral (bottom) breathing.</em> 
+  <em>Figure 3: Audio spectrograms for nasal (top) and oral (bottom) breathing.</em> 
 </p>
 
 The audio data underwent preprocessing, including resampling and segmentation into 500 ms intervals. This detailed approach to data preparation ensured that the neural networks were trained with high-quality, relevant data, which is crucial for accurate real-time monitoring.
