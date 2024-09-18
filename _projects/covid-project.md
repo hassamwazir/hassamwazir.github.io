@@ -88,10 +88,14 @@ The results were promising. Participants were able to complete tasks successfull
   <br> <em>Figure 7: Annotated user interface with interactive tasks performed by participants in the user study.</em> 
 </p> 
 
-<div class="row"> 
-  <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center align-items-center"> 
-  {% include video.liquid path="https://www.youtube.com/embed/X3xGDrRx9pg" title="" class="embed-responsive-item" width="384" height="216" caption="The robotic manipulator interacting with the ICPT, controlled remotely using a tablet" %} </div> 
+<div class="row justify-content-center align-items-center">
+  <div class="col-md-8">
+    {% include video.liquid path="https://www.youtube.com/embed/X3xGDrRx9pg" class="embed-responsive-item rounded z-depth-1" controls=true width="100%" %}
+  </div>
 </div>
+<p align="center"> 
+  <em>Video 1: The robotic manipulator interacting with the ICPT, controlled remotely using a tablet.</em> 
+</p> 
 
 
 ## The Future of Telerobotics in Healthcare
