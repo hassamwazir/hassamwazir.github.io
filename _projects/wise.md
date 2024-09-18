@@ -1,17 +1,18 @@
 ---
-layout: page
+layout: distill
 title: Werable Inertial Sensors for Exergames
 description: This work presents the design and development of wearable inertial sensors (WIS) for real-time simultaneous triplanar motion capture of the upper extremity.
 img: /assets/img/projects/wise/thumbnail-wise.png
 importance: 4
 category: work
 toc:
-  sidebar: left
+  - name: Abstract
 pretty_table: true
-related_publications: true
+# related_publications: true
+bibliography: projects/wise/wise.bib
 ---
 
-Publication: {% cite rajkumar2019wise %}
+**Publicaiton:** (Rajkumar et al., 2019)<d-cite key="rajkumar2019wise"></d-cite>
 
 ## Abstract
 
