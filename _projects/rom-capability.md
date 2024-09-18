@@ -1,17 +1,18 @@
 ---
-layout: page
+layout: distill
 title: Using Capability Maps and Virtual Reality for Occupational Therapy
 description: This work proposes using arm kinematic modeling and capability maps to allow a VR system to understand a user’s physical capability and limitation. 
 img: /assets/img/projects/rom-capability/thumbnail-rom-capability.png
 importance: 2
 category: work
 toc:
-  sidebar: left
+  - name: Abstract
 pretty_table: true
-related_publications: true
+bibliography: projects/rom-capability/rom-capability.bib
+# related_publications: true
 ---
 
-Publication: {% cite lourido2024cmap %}
+**Publication:** (Lourido et al., 2024)<d-cite key="lourido2024cmap"></d-cite>
 
 ## Abstract
 
