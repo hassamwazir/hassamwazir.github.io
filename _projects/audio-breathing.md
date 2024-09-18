@@ -1,17 +1,24 @@
 ---
-layout: page
+layout: distill
 title: Wireless Earphone-based Monitoring of Breathing Exercises
 description: This work proposes using commodity earphones for real-time breathing channel and phase detection for breathing therapy compliance monitoring.
 img: /assets/img/projects/audio-breathing/thumbnail-audio-breathing.gif
 importance: 1
 category: work
 toc:
-  sidebar: left
+  - name: Introduction
+  - name: System Overview
+  - name: Custom Dataset Creation
+  - name: Real-World Applications and Future Research Directions
+  - name: Conclusion
 pretty_table: true
-related_publications: true
+bibliography: projects/audio-breathing/audio-breathing.bib
+# bibliography: audio-breathing.bib
+# related_publications: true
+# bib_path: projects/audio-breathing/audio-breathing.bib
 ---
 
-Publication: {% cite wazir2024audio %}
+**Publication:** (Wazir et al., 2022)<d-cite key="wazir2024audio"></d-cite>
 
 [Download Poster](/assets/img/news/embc24-poster.jpg)
 
