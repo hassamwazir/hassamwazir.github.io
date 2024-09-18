@@ -871,6 +871,21 @@ ${math}
   }
 
   function link_string(ent) {
+    let linkStr = "";
+
+    // Handle PDF link if present
+    if ("pdf" in ent) {
+      var pdf = ent.pdf;
+      var arxiv_match = /arxiv\.org\/abs\/([0-9\.]*)/.exec(pdf);
+      if (!pdf.includes('://')) {
+        pdf = `/assets/pdf/${pdf}`;
+      }
+      if (pdf.slice(-4) == ".pdf") {
+        linkStr += ` &ensp;<a href="${pdf}">[PDF]</a>`;
+      }
+    }
+
+    // Handle URL link if present
     if ("url" in ent) {
       var url = ent.url;
       var arxiv_match = /arxiv\.org\/abs\/([0-9\.]*)/.exec(url);
@@ -878,17 +893,14 @@ ${math}
         url = `http://arxiv.org/pdf/${arxiv_match[1]}.pdf`;
       }
 
-      if (url.slice(-4) == ".pdf") {
-        var label = "PDF";
-      } else if (url.slice(-5) == ".html") {
-        var label = "HTML";
+      if (url.slice(-5) == ".html" || url.slice(-4) == ".pdf") {
+        linkStr += ` &ensp;<a href="${url}">[HTML]</a>`;
+      } else {
+        linkStr += ` &ensp;<a href="${url}">[HTML]</a>`;
       }
-      return ` &ensp;<a href="${url}">[${label || "link"}]</a>`;
-    } /* else if ("doi" in ent){
-      return ` &ensp;<a href="https://doi.org/${ent.doi}" >[DOI]</a>`;
-    }*/ else {
-      return "";
     }
+
+    return linkStr || "";  // Return constructed links or an empty string if none
   }
   function doi_string(ent, new_line) {
     if ("doi" in ent) {
