@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-## Instructor
+# Instructor
 ### New York University
 
 **2024**
@@ -43,8 +43,8 @@ nav_order: 5
 **2016**
 - Trainee Engineer and Instructor (Summer 2016)
 
-  
-## Mentor
+---  
+# Mentor
 ### New York University
 - Applied Research Innovations in Science and Engineering ([ARISE](https://engineering.nyu.edu/academics/programs/k12-stem-education/arise)) Mentor (Summer 2022)
 - Applied Research Innovations in Science and Engineering ([ARISE](https://engineering.nyu.edu/academics/programs/k12-stem-education/arise)) Mentor (Fall 2020)
