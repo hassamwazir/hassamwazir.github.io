@@ -3,7 +3,7 @@ layout: distill
 title: Werable Inertial Sensors for Exergames
 description: This work presents the design and development of wearable inertial sensors (WIS) for real-time simultaneous triplanar motion capture of the upper extremity.
 img: /assets/img/projects/wise/thumbnail-wise.png
-importance: 4
+importance: 6
 category: work
 toc:
   - name: Abstract
