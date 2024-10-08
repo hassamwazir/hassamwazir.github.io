@@ -71,11 +71,15 @@ The development of the Wearable Pendant Sensor represents a significant step for
 
 ## Key Takeaways:
 
-    Lymphedema is a debilitating condition with no known cure, affecting many post-operative breast cancer patients.
-    The TOLF program is a therapeutic exercise regimen designed to improve lymph flow and reduce the risk of lymphedema.
-    The WPS device offers a low-cost, wearable solution for monitoring compliance with TOLF therapy, tracking both shoulder range of motion and breathing patterns.
-    Preliminary validation studies show a high correlation between WPS measurements and traditional MOCAP systems like Kinect.
-    Future developments will integrate Bluetooth and IoT functionality to enable remote monitoring and improve treatment adherence.
+> Lymphedema is a debilitating condition with no known cure, affecting many post-operative breast cancer patients.
+    
+> The TOLF program is a therapeutic exercise regimen designed to improve lymph flow and reduce the risk of lymphedema.
+
+> The WPS device offers a low-cost, wearable solution for monitoring compliance with TOLF therapy, tracking both shoulder range of motion and breathing patterns.
+
+> Preliminary validation studies show a high correlation between WPS measurements and traditional MOCAP systems like Kinect.
+
+> Future developments will integrate Bluetooth and IoT functionality to enable remote monitoring and improve treatment adherence.
 
 By harnessing wearable technology and data-driven telemonitoring, the WPS device could revolutionize how lymphedema therapy is managed, empowering patients to take control of their health from the comfort of their own homes.
 
