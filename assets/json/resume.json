@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Hassam Khan Wazir",
-    "label": "Research Scientist",
+    "label": "Adjunct Faculty",
     "image": "",
     "email": "hassam.wazir@nyu.edu",
     "phone": "",
@@ -22,6 +22,18 @@
     ]
   },
   "work": [
+    {
+      "name": "New York University",
+      "position": "Adjunct Faculty",
+      "url": "",
+      "startDate": "2024-09-01",
+      "endDate": "",
+      "summary": "Automatic Controls Laboratory",
+      "highlights": [
+        "Instructed students in control systems, enhancing their understanding of system identification, PID, LQR, and signal processing techniques through lectures and hands-on exercises",
+        "Evaluated student performance through assessments and grading to ensure a comprehensive learning experience."
+      ]
+    },
     {
       "name": "New York University",
       "position": "Research Scientist",
