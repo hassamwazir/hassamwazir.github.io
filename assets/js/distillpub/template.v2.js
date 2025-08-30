@@ -871,21 +871,6 @@ ${math}
   }
 
   function link_string(ent) {
-    let linkStr = "";
-
-    // Handle PDF link if present
-    if ("pdf" in ent) {
-      var pdf = ent.pdf;
-      var arxiv_match = /arxiv\.org\/abs\/([0-9\.]*)/.exec(pdf);
-      if (!pdf.includes('://')) {
-        pdf = `/assets/pdf/${pdf}`;
-      }
-      if (pdf.slice(-4) == ".pdf") {
-        linkStr += ` &ensp;<a href="${pdf}">[PDF]</a>`;
-      }
-    }
-
-    // Handle URL link if present
     if ("url" in ent) {
       var url = ent.url;
       var arxiv_match = /arxiv\.org\/abs\/([0-9\.]*)/.exec(url);
@@ -893,14 +878,17 @@ ${math}
         url = `http://arxiv.org/pdf/${arxiv_match[1]}.pdf`;
       }
 
-      if (url.slice(-5) == ".html" || url.slice(-4) == ".pdf") {
-        linkStr += ` &ensp;<a href="${url}">[HTML]</a>`;
-      } else {
-        linkStr += ` &ensp;<a href="${url}">[HTML]</a>`;
+      if (url.slice(-4) == ".pdf") {
+        var label = "PDF";
+      } else if (url.slice(-5) == ".html") {
+        var label = "HTML";
       }
+      return ` &ensp;<a href="${url}">[${label || "link"}]</a>`;
+    } /* else if ("doi" in ent){
+      return ` &ensp;<a href="https://doi.org/${ent.doi}" >[DOI]</a>`;
+    }*/ else {
+      return "";
     }
-
-    return linkStr || "";  // Return constructed links or an empty string if none
   }
   function doi_string(ent, new_line) {
     if ("doi" in ent) {
@@ -2148,7 +2136,7 @@ d-appendix > distill-appendix {
 }
 
 .citation {
-  color: hsla(206, 90%, 20%, 0.7);
+  color: var(--global-theme-color);
 }
 
 .citation-number {
@@ -2156,7 +2144,7 @@ d-appendix > distill-appendix {
   white-space: nowrap;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", Helvetica, sans-serif;
   font-size: 75%;
-  color: hsla(206, 90%, 20%, 0.7);
+  color: var(--global-theme-color);
   display: inline-block;
   line-height: 1.1em;
   text-align: center;
@@ -2608,7 +2596,7 @@ d-citation-list .references .title {
           var env = {
             callback: callback,
             container: container,
-            selector: 'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code',
+            selector: 'd-code',
           };
 
           _.hooks.run("before-highlightall", env);
@@ -4289,7 +4277,7 @@ sup {
 }
 
 span {
-  color: hsla(206, 90%, 20%, 0.7);
+  color: var(--global-theme-color);
   cursor: default;
 }
 
@@ -4458,14 +4446,26 @@ d-footnote-list a.footnote-backlink {
   top: 0;
   left: 0;
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: rgba(250, 250, 250, 0.95);
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  box-sizing: border-box;
+  /* Original styles retained and new theming variables added */
+  border: 1px solid var(--global-divider-color); /* Themed border */
+  background-color: var(--global-card-bg-color); /* Themed background */
+  color: var(--global-text-color); /* Themed text color */
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1); /* Existing shadow */
+  border-radius: 4px; /* Existing border-radius */
+  box-sizing: border-box; /* Existing box-sizing */
 
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px); /* Existing backdrop-filter */
+  -webkit-backdrop-filter: blur(2px); /* Existing backdrop-filter */
+}
+
+.panel a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.panel a:hover {
+  color: var(--global-hover-color);
+  text-decoration: underline;
 }
 
 </style>

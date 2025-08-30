@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Hassam Khan Wazir",
-    "label": "Adjunct Faculty",
+    "label": "Chief Engineer",
     "image": "",
-    "email": "hassam.wazir@nyu.edu",
+    "email": "hassam.wazir@ibblab.com",
     "phone": "",
     "Bio": "I am Experienced in multidisciplinary research with proficiency in robotics software/hardware development, mechatronics, human-robot interaction, AI/ML, vision and audio processing, electrical/electronic engineering, and mechanical design.",
     "location": {
-      "address": "6 MetroTech Center",
-      "postalCode": "NY 11201",
+      "address": "760 Parkside Avenue Room 303",
+      "postalCode": "NY 11226",
       "city": "Brooklyn",
       "countryCode": "US",
       "region": "New York"
@@ -23,11 +23,23 @@
   },
   "work": [
     {
+      "name": "Innomune Biologics Brooklyn",
+      "position": "Chief Engineer",
+      "url": "",
+      "startDate": "2025-05-15",
+      "endDate": "",
+      "summary": "Biosensor Design",
+      "highlights": [
+        "Lead the design, development, and testing of innovative biosensors for disease detection",
+        "Oversee all phases of sensor engineering, including system design, calibration protocols, analytical data interpretation, and performance validation"
+      ]
+    },
+    {
       "name": "New York University",
       "position": "Adjunct Faculty",
       "url": "",
       "startDate": "2024-09-01",
-      "endDate": "",
+      "endDate": "2025-05-15",
       "summary": "Automatic Controls Laboratory",
       "highlights": [
         "Instructed students in control systems, enhancing their understanding of system identification, PID, LQR, and signal processing techniques through lectures and hands-on exercises",
@@ -39,7 +51,7 @@
       "position": "Research Scientist",
       "url": "",
       "startDate": "2024-07-15",
-      "endDate": "",
+      "endDate": "2025-05-15",
       "summary": "Mechatronics, Controls, and Robotics Laboratory",
       "highlights": [
         "Developed an indoor localization system for the elderly using ambient Wi-Fi and inertial measurement units.",

@@ -2,6 +2,9 @@
 
 Here we will give you some tips on how to customize the website. One important thing to note is that **ALL** the changes you make should be done on the **main** branch of your repository. The `gh-pages` branch is automatically overwritten every time you make a change to the main branch.
 
+<!--ts-->
+<!--te-->
+
 ## Project structure
 
 The project is structured as follows, focusing on the main components that you will need to modify:
@@ -13,10 +16,12 @@ The project is structured as follows, focusing on the main components that you w
     │   └── 📄 resume.json: CV in JSON format (https://jsonresume.org/)
 ├── 📂 _bibliography/
 │   └── 📄 papers.bib: bibliography in BibTeX format
+├── 📂 _books/: contains the bookshelf pages
 ├── 📄 _config.yml: the configuration file of the template
 ├── 📂 _data/: contains some of the data used in the template
 │   ├── 📄 cv.yml: CV in YAML format, used when assets/json/resume.json is not found
-│   └── 📄 repositories.yml: users and repositories info in YAML format
+│   ├── 📄 repositories.yml: users and repositories info in YAML format
+│   └── 📄 socials.yml: your social media and contact info in YAML format
 ├── 📂 _includes/: contains code parts that are included in the main HTML file
 │   └── 📄 news.liquid: defines the news section layout in the about page
 ├── 📂 _layouts/: contains the layouts to choose from in the frontmatter of the Markdown files
@@ -58,9 +63,11 @@ You can create new pages by adding new Markdown files in the [\_pages](_pages/) 
 
 ## Creating new blog posts
 
-To create a new blog post, you can add a new Markdown file in the [\_posts](_posts/) directory. The [name of the file must follow](https://jekyllrb.com/docs/posts/#creating-posts) the format `YYYY-MM-DD-title.md`. The easiest way to do this is to copy an existing blog post and modify it. Note that some blog posts have optional fields in the [frontmatter](https://jekyllrb.com/docs/front-matter/) that are used to enable specific behaviors or functions.
+To create a new blog post, you can add a new Markdown file in the [\_posts](_posts/) directory, which is the [default location for posts in Jekyll](https://jekyllrb.com/docs/posts/). The [name of the file must follow](https://jekyllrb.com/docs/posts/#creating-posts) the format `YYYY-MM-DD-title.md`. The easiest way to do this is to copy an existing blog post and modify it. Note that some blog posts have optional fields in the [frontmatter](https://jekyllrb.com/docs/front-matter/) that are used to enable specific behaviors or functions.
 
 If you want to create blog posts that are not ready to be published, but you want to track it with git, you can create a [\_drafts](https://jekyllrb.com/docs/posts/#drafts) directory and store them there.
+
+Note that `posts` is also a collection, but it is a default collection created automatically by Jekyll. To access the posts, you can use the `site.posts` variable in your templates.
 
 ## Creating new projects
 
@@ -72,9 +79,13 @@ You can add news in the about page by adding new Markdown files in the [\_news](
 
 ## Adding Collections
 
-This Jekyll theme implements `collections` to let you break up your work into categories. The theme comes with two default collections: `news` and `projects`. Items from the `news` collection are automatically displayed on the home page. Items from the `projects` collection are displayed on a responsive grid on projects page.
+This Jekyll theme implements [collections](https://jekyllrb.com/docs/collections/) to let you break up your work into categories. The theme comes with three default collections: `news`, `projects`, and `books`. Items from the `news` collection are automatically displayed on the home page, while items from the `projects` collection are displayed on a responsive grid on projects page and items from the `books` collection are displayed on its own `bookshelf` page inside `submenus`.
 
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is. To do this, edit the collections in the [\_config.yml](_config.yml) file, create a corresponding folder, and create a landing page for your collection, similar to [\_pages/projects.md](_pages/projects.md).
+
+If you wish to create a collection with support for categories and tags, like the blog posts, you just need to add this collection to the `jekyll-archives` section of your [\_config.yml](_config.yml) file. You can check how this is done with the `books` collection. For more information about customizing the archives section or creating your own archives page, check the [jekyll-archives-v2 documentation](https://george-gca.github.io/jekyll-archives-v2/).
+
+To access the collections, you can use the `site.COLLECTION_NAME` variable in your templates.
 
 ## Adding a new publication
 
@@ -92,7 +103,7 @@ scholar:
   first_name: [Albert, A.]
 ```
 
-If the entry matches one form of the last names and the first names, it will be underlined. Keep meta-information about your co-authors in [\_data/coauthors.yml](_data/coauthors.yml) and Jekyll will insert links to their webpages automatically. The co-author data format is as follows,
+If the entry matches one form of the last names and the first names, it will be underlined. Keep meta-information about your co-authors in [\_data/coauthors.yml](_data/coauthors.yml) and Jekyll will insert links to their webpages automatically. The co-author data format is as follows, with the last names lower cased and without accents as the key:
 
 ```yaml
 "adams":
@@ -115,7 +126,7 @@ If the entry matches one form of the last names and the first names, it will be 
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 ```
 
-If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
+If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided. Note that the keys **MUST BE** lower cased and **MUST NOT** contain accents. This is because the keys are used to match the last names in the BibTeX entries, considering possible variations (see [related discussion](https://github.com/alshedivat/al-folio/discussions/2213)).
 
 ### Buttons (through custom bibtex keywords)
 
@@ -145,13 +156,97 @@ A variety of beautiful theme colors have been selected for you to choose from. T
 
 ## Adding social media information
 
-You can add your social media links by adding the specified information at the `Social integration` section in the [\_config.yml](_config.yml) file. This information will appear at the bottom of the `About` page.
+You can add your social media links by adding the specified information in the [\_data/socials.yml](_data/socials.yml) file. This information will appear at the bottom of the `About` page and in the search results by default, but this could be changed to appear at the header of the page by setting `enable_navbar_social: true` and doesn't appear in the search by setting `socials_in_search: false`, both in [\_config.yml](_config.yml).
 
 ## Adding a newsletter
 
 You can add a newsletter subscription form by adding the specified information at the `newsletter` section in the [\_config.yml](_config.yml) file. To set up a newsletter, you can use a service like [Loops.so](https://loops.so/), which is the current supported solution. Once you have set up your newsletter, you can add the form [endpoint](https://loops.so/docs/forms/custom-form) to the `endpoint` field in the `newsletter` section of the [\_config.yml](_config.yml) file.
 
 Depending on your specified footer behavior, the sign up form either will appear at the bottom of the `About` page and at the bottom of blogposts if `related_posts` are enabled, or in the footer at the bottom of each page.
+
+## Removing content
+
+Since this template have a lot of content, you may want to remove some of it. The easiest way to achieve this and avoid merge conflicts when updating your code (as [pointed by CheariX ](https://github.com/alshedivat/al-folio/pull/2933#issuecomment-2571271117)) is to add the unwanted files to the `exclude` section in your `_config.yml` file instead of actually deleting them, for example:
+
+```yml
+exclude:
+  - _news/announcement_*.md
+  - _pages/blog.md
+  - _posts/
+  - _projects/?_project.md
+  - assets/jupyter/blog.ipynb
+```
+
+Here is a list of the main components that you may want to delete, and how to do it. Don't forget if you delete a page to update the `nav_order` of the remaining pages.
+
+### Removing the blog page
+
+To remove the blog, you have to:
+
+- delete [\_posts](_posts/) directory
+- delete blog page [\_pages/blog.md](_pages/blog.md)
+- remove reference to blog page in our [\_pages/dropdown.md](_pages/dropdown.md)
+- remove the `latest_posts` part in [\_pages/about.md](_pages/about.md)
+- remove the `Blog` section in the [\_config.yml](_config.yml) file and the related parts, like the `jekyll-archives`
+
+You can also:
+
+- delete [\_includes/latest_posts.liquid](_includes/latest_posts.liquid)
+- delete [\_includes/related_posts.liquid](_includes/related_posts.liquid)
+- delete [\_layouts/archive.liquid](_layouts/archive.liquid) (unless you have a custom collection that uses it)
+- delete [\_plugins/external-posts.rb](_plugins/external-posts.rb)
+- remove the `jekyll-archives-v2` gem from the [Gemfile](Gemfile) and the `plugins` section in [\_config.yml](_config.yml) (unless you have a custom collection that uses it)
+- remove the `classifier-reborn` gem from the [Gemfile](Gemfile)
+
+### Removing the news section
+
+To remove the news section, you can:
+
+- delete the [\_news](_news/) directory
+- delete the file [\_includes/news.liquid](_includes/news.liquid) and the references to it in the [\_pages/about.md](_pages/about.md)
+- remove the `announcements` part in [\_pages/about.md](_pages/about.md)
+- remove the news part in the `Collections` section in the [\_config.yml](_config.yml) file
+
+### Removing the projects page
+
+To remove the projects, you can:
+
+- delete the [\_projects](_projects/) directory
+- delete the projects page [\_pages/projects.md](_pages/projects.md)
+- remove reference to projects page in our [\_pages/dropdown.md](_pages/dropdown.md)
+- remove projects part in the `Collections` section in the [\_config.yml](_config.yml) file
+
+You can also:
+
+- delete [\_includes/projects_horizontal.liquid](_includes/projects_horizontal.liquid)
+- delete [\_includes/projects.liquid](_includes/projects.liquid)
+
+### Removing the publications page
+
+To remove the publications, you can:
+
+- delete the [\_bibliography](_bibliography/) directory
+- delete the publications page [\_pages/publications.md](_pages/publications.md)
+- remove reference to publications page in our [\_pages/dropdown.md](_pages/dropdown.md)
+- remove `Jekyll Scholar` section in the [\_config.yml](_config.yml) file
+
+You can also:
+
+- delete the [\_layouts/bib.liquid](_layouts/bib.liquid) file
+- delete [\_includes/bib_search.liquid](_includes/bib_search.liquid)
+- delete [\_includes/citation.liquid](_includes/citation.liquid)
+- delete [\_includes/selected_papers.liquid](_includes/selected_papers.liquid)
+- delete [\_plugins/google-scholar-citations.rb](_plugins/google-scholar-citations.rb)
+- delete [\_plugins/hide-custom-bibtex.rb](_plugins/hide-custom-bibtex.rb)
+- delete [\_plugins/inspirehep-citations.rb](_plugins/inspirehep-citations.rb)
+- remove the `jekyll-scholar` gem from the [Gemfile](Gemfile) and the `plugins` section in [\_config.yml](_config.yml)
+
+### Removing the repositories page
+
+To remove the repositories, you can:
+
+- delete the repositories page [\_pages/repositories.md](_pages/repositories.md)
+- delete [\_includes/repository/](_includes/repository/) directory
 
 ## Adding Token for Lighthouse Badger
 
@@ -169,3 +264,31 @@ Due to the necessary permissions (PAT and others mentioned above), it is recomme
 ## Customizing fonts, spacing, and more
 
 You can customize the fonts, spacing, and more by editing [\_sass/\_base.scss](_sass/_base.scss). The easiest way to try in advance the changes is by using [chrome dev tools](https://developer.chrome.com/docs/devtools/css) or [firefox dev tools](https://firefox-source-docs.mozilla.org/devtools-user/). In there you can click in the element and find all the attributes that are set for that element and where are they. For more information on how to use this, check [chrome](https://developer.chrome.com/docs/devtools/css) and [firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html) how-tos, and [this tutorial](https://www.youtube.com/watch?v=l0sgiwJyEu4).
+
+## Scheduled Posts
+
+`al-folio` contains a workflow which automatically publishes all posts scheduled at a specific day, at the end of the day (23:30). By default the action is disabled, and to enable it you need to go to `.github/workflows/` and find the file called `schedule-posts.txt`. This is the workflow file. For GitHub to recognize it as one (or to enable the action), you need to rename it to `schedule-posts.yml`.
+
+In order to use this you need to save all of your "Completed" blog posts which are scheduled to be uploaded on a specific date, in a folder named `_scheduled/` in the root directory.
+
+> Incomplete posts should be saved in `_drafts/`
+
+### Name Format
+
+In this folder you need to store your file in the same format as you would in `_posts/`
+
+> Example file name: `2024-08-26-This file will be uploaded on 26 August.md`
+
+### Important Notes
+
+- The scheduler uploads posts everyday at 🕛 23:30 UTC
+- It will only upload posts at 23:30 UTC of their respective scheduled days, It's not uploaded in 23:59 in case there are a lot of files as the scheduler must finish before 00:00
+- It will only upload files which follow the pattern `yyyy-mm-dd-title.md`
+  - This means that only markdown files will be posted
+  - It means that any markdown which do not follow this pattern will not be posted
+- The scheduler works by moving posts from the `_scheduled/` directory to `_posts/`, it will not post to folders like `_projects/` or `_news/`
+- The date in the name of the file is the day that file will be uploaded on
+  - `2024-08-27-file1.md` will not be posted before or after 27-August-2024 (Scheduler only works for posts scheduled on the present day)
+  - `2025-08-27-file2.md` will be posted exactly on 27-August-2025
+  - `File3.md` will not be posted at all
+  - `2026-02-31-file4.md` is supposed to be posted on 31-February-2026, but there is no 31st in February hence this file will never be posted either
