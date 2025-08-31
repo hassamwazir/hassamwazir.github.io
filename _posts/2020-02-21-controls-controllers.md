@@ -7,7 +7,6 @@ tags: controls
 categories: post
 toc:
   sidebar: left
-
 ---
 
 [In the previous post](/blog/2020/controls-system-config/), we discussed the configuration of control systems. In this post, we will discuss the common types of controllers used in classical control systems.
@@ -17,8 +16,8 @@ toc:
 Every plant has certain characteristics and will behave a certain way when provided a unit step input. For example, the plant,
 
 \begin{equation}
-     \frac{Y(s)}{R(s)} = \frac{0.5}{0.1s + 1}
-     \label{eqn:example_eq}
+\frac{Y(s)}{R(s)} = \frac{0.5}{0.1s + 1}
+\label{eqn:example_eq}
 \end{equation}
 
 will have a steady state value of $$0.5$$ (because $$K=0.5$$) for unit step input.
@@ -135,8 +134,8 @@ $$
 Divide the numerator and the denominator by $$4$$ to make the coefficient of the highest power of $$s$$ in the denominator equal to $$1$$ (This will come in handy later).
 
 \begin{equation}
-    \frac{Y(s)}{R(s)} = \frac{0.5(Ps+I)}{s^2 + 0.5s (1 + P) + 0.5I}
-    \label{eqn:calculatedTF}
+\frac{Y(s)}{R(s)} = \frac{0.5(Ps+I)}{s^2 + 0.5s (1 + P) + 0.5I}
+\label{eqn:calculatedTF}
 \end{equation}
 
 Now that we have the transfer function in terms of $$P$$ and $$I$$, we need to calculate the desired $$\zeta$$ and $$\omega_n$$ of the system. These can be computed based on the system requirements.
@@ -188,6 +187,7 @@ $$
 The transfer function we calculated is for a second-order system. We [previously mentioned](/blog/2020/controls-system-config/) that the transfer function for a second-order system is of the general form,
 
 {% raw %}
+
 $$
 \frac{Y(s)}{R(s)} = \frac{{\omega_n}^2}{s^2 + 2 \omega_n \zeta s + {\omega_n}^2}
 $$
@@ -229,6 +229,7 @@ $$
 $$
 I = 7.144
 $$
+
 {% endraw %}
 
 Putting these values of $$P$$ and $$I$$ in the transfer function, we get the following unit-step response,

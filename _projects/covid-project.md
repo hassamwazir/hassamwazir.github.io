@@ -6,13 +6,13 @@ img: /assets/img/projects/covid/thumbnail-covid-project.png
 importance: 4
 category: work
 toc:
-  - name: 'Remote Control of Dialysis Machines: A Game Changer for Healthcare During Pandemics'
-  - name: 'The Challenge: Safeguarding Healthcare Workers and Patients'
-  - name: 'The Solution: Remote Control of Dialysis Machines'
-  - name: 'How It Works: A User-Friendly Interface'
-  - name: 'Testing and User Experience'
-  - name: 'The Future of Telerobotics in Healthcare'
-  - name: 'Suggested Improvement Based on User Tests'
+  - name: "Remote Control of Dialysis Machines: A Game Changer for Healthcare During Pandemics"
+  - name: "The Challenge: Safeguarding Healthcare Workers and Patients"
+  - name: "The Solution: Remote Control of Dialysis Machines"
+  - name: "How It Works: A User-Friendly Interface"
+  - name: "Testing and User Experience"
+  - name: "The Future of Telerobotics in Healthcare"
+  - name: "Suggested Improvement Based on User Tests"
 bibliography: projects/covid-project/covid-project.bib
 pretty_table: true
 related_publications: true
@@ -42,7 +42,6 @@ During the height of the COVID-19 pandemic, hospitals and dialysis centers were 
 
 Dialysis patients were especially at risk. In New York City, during the early days of the pandemic, the New York Times reported that dialysis patients were facing a “close-up” risk from the coronavirus, as staff shortages and PPE rationing made it difficult to implement stringent protocols. As a result, hospitals were forced to adopt stop-gap measures like baby monitors to reduce direct contact between healthcare workers and patients.
 
-
 ## The Solution: Remote Control of Dialysis Machines
 
 To mitigate these risks, we proposed a remote monitoring and control system for dialysis machines that allows healthcare workers to operate the machine’s instrument panel without entering the patient’s room. Our system consists of a four-degree-of-freedom (DoF) robotic manipulator mounted with a USB camera. The robot is controlled via a smartphone or tablet interface connected to the same wireless network, enabling healthcare professionals to operate it from a safe distance.
@@ -54,13 +53,12 @@ To mitigate these risks, we proposed a remote monitoring and control system for 
 
 The key advantage of this solution is its simplicity and accessibility. Instead of relying on specialized, expensive medical robots, our system uses cost-effective and commercially available hardware, which can be easily retrofitted onto existing dialysis machines. This makes it possible to quickly deploy the solution in case of a pandemic or other healthcare emergencies, where time and resources are of the essence.
 
-
 ## How It Works: A User-Friendly Interface
 
 <p align="center"> 
   <img src="/assets/img/projects/covid/robot_prototype.jpg" alt="Robot manipulator CAD model and prototype." width="600px"> 
   <br> <em>Figure 4: (A) CAD model of the robotic manipulator and (B) the built prototype interacting with the dialysis machine.</em> 
-</p> 
+</p>
 
 <p align="center"> 
   <img src="/assets/img/projects/covid/marker_approach.jpg" alt="Four-marker and single-marker approach for tracking." width="600px"> 
@@ -70,7 +68,6 @@ The key advantage of this solution is its simplicity and accessibility. Instead 
 The robot interacts with the dialysis machine’s touchscreen (the instrument control panel or ICPT), mimicking the actions that a healthcare worker would perform in person. Using a mobile app, the healthcare worker taps on a virtual interface displayed on their smartphone or tablet. The system then maps these inputs to the corresponding positions on the ICPT, allowing the robot to press buttons or adjust controls.
 
 To ensure accuracy, we employed a combination of marker-based tracking and intuitive user interfaces. The camera on the robotic manipulator captures the dialysis machine’s instrument panel, and the mobile app uses this feed to provide real-time feedback to the user. This setup allows the healthcare worker to directly interact with the robot and the dialysis machine as though they were physically present in the room.
-
 
 ## Testing and User Experience
 
@@ -86,7 +83,7 @@ The results were promising. Participants were able to complete tasks successfull
 <p align="center"> 
   <img src="/assets/img/projects/covid/user_interface.jpg" alt="Annotated image of the user interface." width="600px"> 
   <br> <em>Figure 7: Annotated user interface with interactive tasks performed by participants in the user study.</em> 
-</p> 
+</p>
 
 <div class="row justify-content-center align-items-center">
   <div class="col-md-8">
@@ -95,8 +92,7 @@ The results were promising. Participants were able to complete tasks successfull
 </div>
 <p align="center"> 
   <em>Video 1: The robotic manipulator interacting with the ICPT, controlled remotely using a tablet.</em> 
-</p> 
-
+</p>
 
 ## The Future of Telerobotics in Healthcare
 
@@ -108,7 +104,6 @@ While our current system focuses on dialysis machines, the potential application
 </p>
 
 Additionally, the use of mobile devices as the primary interface makes the system highly accessible. Unlike traditional medical robots, which require specialized training and equipment, our solution can be operated by anyone with a smartphone or tablet. This democratizes access to advanced medical technology and ensures that it can be rapidly deployed in emergency situations.
-
 
 ## Conclusion
 
@@ -137,6 +132,6 @@ By integrating this perspective correction, we address the issue of camera skew,
 
 > This paper presents the design and development of wearable inertial sensors (WIS) for real-time simultaneous triplanar motion capture of the upper extremity (UE). The sensors simultaneously capture in the frontal, sagittal, and horizontal planes UE range of motion (ROM), which is critical to assess an individual’s movement limitations and determine appropriate rehabilitative treatments. Off-theshelf sensors and microcontrollers are used to develop the WIS system, which wirelessly streams real-time joint orientation for UE ROM measurement. Key developments include: (i) two novel approaches, using earth’s gravity (EG approach) and magnetic field (EGM approach) as references, to correct misalignments in the orientation between the sensor and its housing to minimize measurement errors; (ii) implementation of the joint coordinate system (JCS)-based method for triplanar ROM measurements for clinical use; and (iii) an in-situ guided mounting technique for accurate sensor placement and alignment on human body. The results (i) compare computational time between two orientation misalignment correction approaches (EG approach = 325.05 μs and EGM approach = 92.05μs); (ii) demonstrate the accuracy and repeatability of measurements from the WIS system (percent deviation of measured angle from applied angle is less than ±6.5% and percent coefficient of variation is less than 11%, indicating acceptable accuracy and repeatability,respectively); and (iii) demonstrate the feasibility of using the WIS system within the JCS framework for providing anatomicallycorrect simultaneous triplanar ROM measurements of shoulder, elbow, and forearm movements during several upper limb exercises. -->
 
-*(MATLAB programming, Inertial Measurement Unit, Data acquisition, processing, and visualization)*
+_(MATLAB programming, Inertial Measurement Unit, Data acquisition, processing, and visualization)_
 
 **Tech**: MATLAB, C++, Arduino IDE

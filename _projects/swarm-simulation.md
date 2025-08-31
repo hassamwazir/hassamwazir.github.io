@@ -27,7 +27,7 @@ The robots start with the following initial formation
     <em>Figure 1: Swarm formation.</em>
 </p>
 
-The length of the horizontal edges is 0.75 m. The length of the vertical edges is 1 m. The  leader robot $$(r_0)$$ can move freely, whereas the rest of the robots react to its movement and try to maintain formation.
+The length of the horizontal edges is 0.75 m. The length of the vertical edges is 1 m. The leader robot $$(r_0)$$ can move freely, whereas the rest of the robots react to its movement and try to maintain formation.
 
 The approach to maintain formation is to keep a balance between the Laplacian and the edge length $$(z_{des})$$ values. The robots start to move when the sum of the Laplacian values and the corresponding $$z_{des}$$ value is non-zero. Their sole purpose during the simulation is to keep the difference zero and it is due to this constraint, that they can follow $$r_0$$ and maintain formation. This can be shown as the following equation,
 

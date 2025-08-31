@@ -46,7 +46,7 @@ Once this setup was complete, we were able to send an array of instructions to t
 
 ## Using the LLM
 
-In this section, I will focus solely on the approach that was successful for us. For a comprehensive discussion of all the other methods we explored, please refer to the [accompanying blog post](/blog/2024/robot-llm/). 
+In this section, I will focus solely on the approach that was successful for us. For a comprehensive discussion of all the other methods we explored, please refer to the [accompanying blog post](/blog/2024/robot-llm/).
 
 We selected the [Llama-3.1-70B](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B) model for our experiment. This choice was primarily due to its open-source nature and because it is the smallest model in the Llama family that was compatible with our prompt requirements. We utilized the model in its default configuration, without any fine-tuning.
 
@@ -68,6 +68,7 @@ You are controlling a 2 DOF robot on a 50x50 grid. The robot can move one step i
 <p>Given a target coordinate, your task is to calculate and output the shortest sequence of commands that will move the robot from its current position to the target position.</p>
 
 Output Format:
+
 <ul style="list-style-type: none; padding: 0; margin: 0;">
   <li style="margin: 0;">- Begin with the exact phrase: 'The full list is:'.</li>
   <li style="margin: 0;">- Provide the sequence of commands as a JSON array, with each command as a string. Commands must be exactly 'up', 'down', 'left', or 'right'.</li>

@@ -71,7 +71,6 @@ Looking forward, there are numerous opportunities to expand this research. Futur
 
 The use of wireless earphones for real-time breathing exercise monitoring is a groundbreaking development in digital health. By leveraging everyday technology, this system provides a practical and effective solution for at-home therapy compliance, making healthcare more accessible and effective for patients worldwide. As we continue to explore the potential of these technologies, we move closer to a future where personalized, remote healthcare is the norm.
 
-
-*(Python programming, Audio analysis, Deep learning, Convolutional Neural Network, Data acquisition, processing, and visualization)*
+_(Python programming, Audio analysis, Deep learning, Convolutional Neural Network, Data acquisition, processing, and visualization)_
 
 **Tech**: Python, PyTorch, Audacity

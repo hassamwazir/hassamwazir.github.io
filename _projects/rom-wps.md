@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Wearable Pendant Sensor for Therapy Compliance
-description: A wearable pendant sensor to monitor compliance with range of motion lymphatic health exercise 
+description: A wearable pendant sensor to monitor compliance with range of motion lymphatic health exercise
 img: /assets/img/projects/rom-wps/thumbnail-rom-wps.png
 importance: 5
 category: work
@@ -48,10 +48,10 @@ To validate the effectiveness of the WPS, researchers conducted a study comparin
 
 **TABLE I:** Comparison of statistical analysis between WPS and Kinect for shoulder exercises.
 
-| Shoulder Exercise                     | Kendall’s Tau (𝜌)  | RMSE (degrees)|
-|:--------------------------------------|:------------------:|:-------------:|
-| Shoulder abduction-adduction          | 0.807              | 21.496°       |
-| Shoulder flexion-extension            | 0.783              | 27.559°       |
+| Shoulder Exercise            | Kendall’s Tau (𝜌) | RMSE (degrees) |
+| :--------------------------- | :---------------: | :------------: |
+| Shoulder abduction-adduction |       0.807       |    21.496°     |
+| Shoulder flexion-extension   |       0.783       |    27.559°     |
 
 Furthermore, the researchers found that the WPS device could measure maximum ROM and repetitions, two critical parameters for assessing compliance with TOLF. The ability to monitor breathing patterns during exercises, a crucial aspect of TOLF compliance, was also demonstrated using the smartphone's microphone.
 
@@ -72,7 +72,7 @@ The development of the Wearable Pendant Sensor represents a significant step for
 ## Key Takeaways:
 
 > Lymphedema is a debilitating condition with no known cure, affecting many post-operative breast cancer patients.
-    
+
 > The TOLF program is a therapeutic exercise regimen designed to improve lymph flow and reduce the risk of lymphedema.
 
 > The WPS device offers a low-cost, wearable solution for monitoring compliance with TOLF therapy, tracking both shoulder range of motion and breathing patterns.
@@ -83,6 +83,6 @@ The development of the Wearable Pendant Sensor represents a significant step for
 
 By harnessing wearable technology and data-driven telemonitoring, the WPS device could revolutionize how lymphedema therapy is managed, empowering patients to take control of their health from the comfort of their own homes.
 
-*(MATLAB programming, Wearable Sensor Design, Data acquisition, processing, and visualization)*
+_(MATLAB programming, Wearable Sensor Design, Data acquisition, processing, and visualization)_
 
 **Tech**: MATLAB, C++, Arduino IDE

@@ -65,4 +65,4 @@ The robot was featured in the theatrical production [“Rescate”](https://www.
 
 **Tech**: Python, Unity, Solidworks, Dynamixel SDK, Raspberry Pi
 
-*(Python programming, Android Application development, Wireless communication, 3D Printing)*
+_(Python programming, Android Application development, Wireless communication, 3D Printing)_
