@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://hassamwazir.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hassamwazir.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-31T02:39:44+00:00</updated><id>https://hassamwazir.github.io/feed.xml</id><title type="html">blank</title><subtitle>Chief Engineer at Innomune Biologics Brooklyn
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://hassamwazir.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hassamwazir.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-31T02:41:46+00:00</updated><id>https://hassamwazir.github.io/feed.xml</id><title type="html">blank</title><subtitle>Chief Engineer at Innomune Biologics Brooklyn
 </subtitle><entry><title type="html">NYU HPC Setup</title><link href="https://hassamwazir.github.io/blog/2023/nyu-hpc-setup/" rel="alternate" type="text/html" title="NYU HPC Setup" /><published>2023-12-21T16:40:16+00:00</published><updated>2023-12-21T16:40:16+00:00</updated><id>https://hassamwazir.github.io/blog/2023/nyu-hpc-setup</id><content type="html" xml:base="https://hassamwazir.github.io/blog/2023/nyu-hpc-setup/"><![CDATA[<p>This is a guide for logging into the NYU HPC cluster and streamlining that process.</p>
 
 <ul>
@@ -63,30 +63,31 @@ Host greenetunnel
 <p>This warping of the space is non-linear and the Bilinear transformation is used to account for this non-linearity.</p>
 
 <hr />
+
 <h2 id="bilinear-transformation-from-the-s-domain-to-the-z-domain">Bilinear transformation from the s-domain to the z-domain</h2>
 
 <p>Assume we have a first-order system with a transfer function of the form:</p>
 
 <p>\begin{equation}
-    G(s) = \frac{1}{s + 1}
+G(s) = \frac{1}{s + 1}
 \end{equation}</p>
 
 <p>The z-domain transfer function is obtained by replacing \(s\) with \(\left(\frac{z - 1}{T}\right)\), where \(T\) is the sampling time. Let’s asume that a sampling time of \(1\) KHz was and the cut-off frequency \(\omega_c\) of \(10\) Hz`.</p>
 
 <p>Then, the time period \(T\) is given by:
 \begin{equation}
-    T = \frac{1}{f_s} = \frac{1}{1000} = 0.001
+T = \frac{1}{f_s} = \frac{1}{1000} = 0.001
 \end{equation}</p>
 
 <p>The transfer function is given as follows:
 \begin{equation}
-    H(j\omega) = \frac{\omega_c}{s + \omega_c}
+H(j\omega) = \frac{\omega_c}{s + \omega_c}
 \end{equation}</p>
 
 <p>The transformation from s-domain to the z-domain is non-linear. To account for this non-linearity, the cut-off frequency is pre-warped and the resulting frequency is denoted by \(\omega_p\).</p>
 
 <p>\begin{equation}
-    \omega_p = \frac{2}{T} \tan\left(\frac{\omega_c T}{2}\right)
+\omega_p = \frac{2}{T} \tan\left(\frac{\omega_c T}{2}\right)
 \end{equation}</p>
 
 \[\omega_p = 62.853\, \text{rad/s}\]
@@ -118,8 +119,8 @@ Host greenetunnel
 <p>where \(Y[n]\) is the output at time \(n\) and \(U[n]\) is the input at time \(n\). The equation can be rewritten as:</p>
 
 <p>\begin{equation}
-    \label{eq:diff_eq}
-    Y[n] = 0.939 Y[n - 1] + 0.031 (U[n] + U[n - 1])
+\label{eq:diff_eq}
+Y[n] = 0.939 Y[n - 1] + 0.031 (U[n] + U[n - 1])
 \end{equation}</p>
 
 <p>Equation \eqref{eq:diff_eq} is called the difference equation. The difference equation is used to implement the system in a digital computer. now the system can be implemented on a digital device such as a microcontroller.</p>
@@ -139,7 +140,7 @@ Host greenetunnel
 11
 12
 13
-</pre></td><td class="code"><pre>    <span class="n">N</span> <span class="o">=</span> <span class="mi">10</span>  <span class="c1"># Number of samples
+</pre></td><td class="code"><pre><span class="n">N</span> <span class="o">=</span> <span class="mi">10</span> <span class="c1"># Number of samples
 </span>
     <span class="c1"># Initialize arrays for Y and U
 </span>    <span class="n">Y</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">N</span>  <span class="c1"># List to store Y values, initialized to 0
@@ -159,8 +160,8 @@ Host greenetunnel
 <p>Every plant has certain characteristics and will behave a certain way when provided a unit step input. For example, the plant,</p>
 
 <p>\begin{equation}
-     \frac{Y(s)}{R(s)} = \frac{0.5}{0.1s + 1}
-     \label{eqn:example_eq}
+\frac{Y(s)}{R(s)} = \frac{0.5}{0.1s + 1}
+\label{eqn:example_eq}
 \end{equation}</p>
 
 <p>will have a steady state value of \(0.5\) (because \(K=0.5\)) for unit step input.</p>
@@ -269,8 +270,8 @@ Host greenetunnel
 <p>Divide the numerator and the denominator by \(4\) to make the coefficient of the highest power of \(s\) in the denominator equal to \(1\) (This will come in handy later).</p>
 
 <p>\begin{equation}
-    \frac{Y(s)}{R(s)} = \frac{0.5(Ps+I)}{s^2 + 0.5s (1 + P) + 0.5I}
-    \label{eqn:calculatedTF}
+\frac{Y(s)}{R(s)} = \frac{0.5(Ps+I)}{s^2 + 0.5s (1 + P) + 0.5I}
+\label{eqn:calculatedTF}
 \end{equation}</p>
 
 <p>Now that we have the transfer function in terms of \(P\) and \(I\), we need to calculate the desired \(\zeta\) and \(\omega_n\) of the system. These can be computed based on the system requirements.</p>
@@ -478,6 +479,7 @@ Host greenetunnel
 \[E(s) = R(s) - Y(s)H(s)\]
 
 <hr />
+
 <h2 id="transfer-function">Transfer Function</h2>
 
 <p>A Transfer Function is the ratio of the output of a system to the input of a system in the Laplace domain, considering its initial conditions and equilibrium point to be zero.</p>
@@ -541,6 +543,7 @@ Host greenetunnel
 \[\mathcal{L}\{f\}(s) = \int_{0}^{\infty} f(t) e^{-st} dt\]
 
 <hr />
+
 <h2 id="system-order">System Order</h2>
 
 <p>The order of a system depends on the highest order of the derivative in the differential equation of a system. For a system with a differential equation,</p>
@@ -556,6 +559,7 @@ Host greenetunnel
 <p>the highest power of \(s\) is 3, therefore, it is a \(3^{rd}\) order system.</p>
 
 <hr />
+
 <h2 id="system-response">System response</h2>
 
 <p>The system response refers to the system output when a known input is given to the system. Typically, a unit step function is used as an input and is shown below:</p>
